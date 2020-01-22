@@ -38,5 +38,5 @@ Currently, this bot in in beta testing mode. Adding new users may take several d
 - The information you provide (E-Mail, Twitter handle, ADS query) will be saved in the Github and be exposed to the public.
 - Users with invalid E-Mails, Twitter usernames, or ADS queries are removed.
 - Users with very many papers may be removed to avoid overload. The current limit is 200 papers.
-- If you like to change your ADS query, Mail, or Twitter: Please unsubscribe (first) and re-subscribe (second).
+- If you like to change your ADS query, Mail, or Twitter: Please unsubscribe (first) and re-subscribe (afterwards) with other information.
 - If you have any issues, please [open an issue on Github](https://github.com/hippke/adsbot/issues)
