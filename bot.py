@@ -177,7 +177,7 @@ for line in file:
                     print('Maximum number of tweets reached, aborting:', max_tweets_per_user)
                     break
                 print('Tweeting tweet:', tweets[idx])
-                twitter.update_status(status=tweets[idx])
+                #twitter.update_status(status=tweets[idx])
                 counter += 1
     else:
         print('No new paper found for', adr)
