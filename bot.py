@@ -111,7 +111,7 @@ def get_new_citations(filename, query):
                 filehandle.writelines(citing_paper.bibcode+ '\n')
                 
                 # Twitter string
-                tweet = twitter_username + ' Your paper \"' + \
+                tweet = '@' + twitter_username + ' Your paper \"' + \
                     shorten_string(paper.title[0], chars=chars_title_my_paper_max) + \
                     '\" was cited by ' + \
                     shorten_string(citing_paper.author[0], chars=chars_author_citing_paper_max) + ': '
