@@ -33,3 +33,4 @@ Currently, this bot in in beta testing mode. Adding new users may take several d
 ## Next steps
 - After registration, you will receive an E-Mail (if you provided one) with *all* citations found initially. Afterwards, the bot will search ADS *once per day* for *new* citations and send you an E-Mail *if and only if* you have received new citations.
 - If you added your Twitter username, you will receive *up to three tweets per day* about new citations.
+- If you like to change your ADS query, please unsubscribe and re-subscribe
