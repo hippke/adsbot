@@ -1,0 +1,46 @@
+name: CheckForNewCitations
+
+#on: [push]
+
+
+#on:
+#  schedule:
+#    - cron: '30 18 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        pip install ads twython
+    - name: Load_citations
+      env:
+        SECRET_MAIL_PASSWORD: ${{ secrets.SECRET_MAIL_PASSWORD }}
+        SECRET_ADS_CONFIG_TOKEN: ${{ secrets.SECRET_ADS_CONFIG_TOKEN }}
+        SECRET_GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_TOKEN }}
+        consumer_key: ${{ secrets.consumer_key }}
+        consumer_secret: ${{ secrets.consumer_secret }}
+        access_token: ${{ secrets.access_token }}
+        access_token_secret: ${{ secrets.access_token_secret }}
+      run: |
+        python bot.py
+    - name: Commit files
+      run: |
+        git config --local user.email "michael@jaekle.info"
+        git config --local user.name "hippke"
+        git add .
+        git add --all
+        # git commit -m "Add changes" -a
+        git diff --quiet && git diff --staged --quiet || git commit -am 'Add changes'
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.SECRET_GITHUB_TOKEN }}
