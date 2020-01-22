@@ -33,5 +33,10 @@ Currently, this bot in in beta testing mode. Adding new users may take several d
 ## Next steps
 - After registration, you will receive an E-Mail (if you provided one) with *all* citations found initially. Afterwards, the bot will search ADS *once per day* for *new* citations and send you an E-Mail *if and only if* you have received new citations.
 - If you added your Twitter username, you will receive *up to three tweets per day* about new citations.
+
+## Issues
 - The information you provide (E-Mail, Twitter handle, ADS query) will be saved in the Github and be exposed to the public.
-- If you like to change your ADS query, Mail, or Twitter: Please unsubscribe and re-subscribe.
+- Users with invalid E-Mails, Twitter usernames, or ADS queries are removed.
+- Users with very many papers may be removed to avoid overload. The current limit is 200 papers.
+- If you like to change your ADS query, Mail, or Twitter: Please unsubscribe (first) and re-subscribe (second).
+- If you have any issues, please [open an issue on Github](https://github.com/hippke/adsbot/issues)
