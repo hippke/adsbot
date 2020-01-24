@@ -179,9 +179,12 @@ for line in file:
         if adr == '':
             print('No email address provided, skipping email')
         else:
-            print('Sending mail to', adr)
-            send_mail(mailtext, adr)
-            print('Mail sent.')
+            if mailtext != []:
+                print('Sending mail to', adr)
+                send_mail(mailtext, adr)
+                print('Mail sent.')
+            else:
+                print('Empty mailtext, should be something here!')
             
         # Send Twitter tweet
         if twitter_username == '':
