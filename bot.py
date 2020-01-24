@@ -144,6 +144,15 @@ def send_mail(mailtext, address_to):
     msg['To'] = address_to
     server.sendmail(mail_from, address_to, msg.as_string())
 
+    
+    
+# DEBUG
+search_string = 'author:hippke,m'
+citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+for citing_paper in citing_papers:
+    print(citing_paper.bibcode)
+print(citing_papers.response.get_ratelimits())
+# DEBUG END
 
 file = open(filename_participants, "r")
 twitter = Twython(
