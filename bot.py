@@ -56,7 +56,11 @@ def check_if_new_citations(filename, query):
     print('Running ADS with query', search_string)
     #try:
     citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+    citing_papers.execute()
+    print(citing_papers.__dict__)
+    print(citing_papers)
     for citing_paper in citing_papers:
+        print('yeah')
         print(citing_paper.bibcode)
     print('Query completed')
     #except:
