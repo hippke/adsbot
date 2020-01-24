@@ -53,7 +53,11 @@ def check_if_new_citations(filename, query):
     filehandle = open(filename, "a")
     new_paper_found = False
     search_string = "citations(" + query + ")"
-    citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+    try:
+        citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+    except:
+        print('Error in ADS query')
+        return new_paper_found
     for citing_paper in citing_papers:
         print(citing_paper.bibcode)
         if citing_paper.bibcode not in known_citing_papers:
