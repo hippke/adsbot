@@ -46,16 +46,18 @@ def shorten_string(string, chars=40, separators=[':', ' - ', '?', '. ', '—'], 
 
 def check_if_new_citations(filename, query):
     if not os.path.isfile(filename):
-        filehandle = open(filename, "w")  # Append
+        filehandle = open(filename, "w")
         filehandle.close()
     filehandle = open(filename, "r")
     known_citing_papers = [line.rstrip('\n') for line in filehandle]
-    filehandle = open(filename, "a")
+    filehandle = open(filename, "a")  # append
     new_paper_found = False
     search_string = "citations(" + query + ")"
     print('Running ADS with query', search_string)
     #try:
     citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+    for citing_paper in citing_papers:
+        print(citing_paper.bibcode)
     print('Query completed')
     #except:
     #    print('Error in ADS query')
@@ -147,11 +149,13 @@ def send_mail(mailtext, address_to):
     
     
 # DEBUG
+"""
 search_string = 'author:hippke,m'
 citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
 for citing_paper in citing_papers:
     print(citing_paper.bibcode)
 print(citing_papers.response.get_ratelimits())
+"""
 # DEBUG END
 
 file = open(filename_participants, "r")
