@@ -54,19 +54,12 @@ def check_if_new_citations(filename, query):
     new_paper_found = False
     search_string = "citations(" + query + ")"
     print('Running ADS with query', search_string)
-    #try:
-    citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
-    citing_papers.execute()
-    print(citing_papers.__dict__)
-    print(citing_papers)
-    for citing_paper in citing_papers:
-        print('yeah')
-        print(citing_paper.bibcode)
-    print('Query completed')
-    #except:
-    #    print('Error in ADS query')
-    #    return new_paper_found
-    print('Query completed, after try..except block')
+    try:
+        citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+        citing_papers.execute()
+    except:
+        print('Error in ADS query')
+        return False
     for citing_paper in citing_papers:
         print(citing_paper.bibcode)
         if citing_paper.bibcode not in known_citing_papers:
