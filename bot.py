@@ -55,7 +55,7 @@ def check_if_new_citations(filename, query):
     search_string = "citations(" + query + ")"
     print('Running ADS with query', search_string)
     try:
-        citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
+        citing_papers = ads.SearchQuery(q=search_string, sort="date", rows=2000)
         citing_papers.execute()
     except:
         print('Error in ADS query')
