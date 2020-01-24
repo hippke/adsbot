@@ -1,6 +1,6 @@
 name: subscribers
 
-#on: [push]
+on: [push]
 
 
 #on:
