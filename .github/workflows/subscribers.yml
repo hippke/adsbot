@@ -2,7 +2,6 @@ name: subscribers
 
 on: [push]
 
-
 #on:
 #  schedule:
 #    - cron: '30 18 * * *'
