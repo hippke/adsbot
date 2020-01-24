@@ -19,7 +19,7 @@ jobs:
         python-version: 3.7
     - name: Install dependencies
       run: |
-        pip install email_validator
+        pip install email_validator requests
     - name: Load_subscribers
       run: |
         python subscribers.py
