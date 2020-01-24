@@ -1,13 +1,13 @@
 name: subscribers
 
-on: [push]
+#on: [push]
 
 
 
 
-#on:
-#  schedule:
-#    - cron: '30 18 * * *'
+on:
+  schedule:
+    - cron: '30 15 * * *'
 
 jobs:
   build:
