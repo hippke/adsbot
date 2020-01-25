@@ -187,7 +187,7 @@ for line in subscribers:
             if mailtext != []:
                 print('Sending mail to', mail)
                 #print('mailtext')
-                print(mailtext)
+                #print(mailtext)
                 send_mail(mailtext, mail)
                 print('Mail sent.')
             else:
