@@ -30,7 +30,7 @@ Register and manage your settings with this [Google Form](https://docs.google.co
 
 ## Update mode
 - After registration, you will receive an E-Mail (if you select E-Mail updates) with *all* citations found initially. Afterwards, the bot will search ADS *once per day* for *new* citations and send you an E-Mail *if and only if* you have received new citations.
-- If you added your Twitter username, you will receive *up to three tweets per day* about new citations.
+- If you add your Twitter username, you will receive *up to three tweets per day* about new citations.
 
 ## Issues
 - The information you provide (E-Mail, Twitter handle, ADS query) will be processed by Github Actions and become exposed to the public.
