@@ -185,14 +185,12 @@ for line in subscribers:
     # If yes, iter over all papers of this author to check WHICH papers are cited
     if new_paper_found:
         print('New paper(s) found for', mail)
-        mailtext, tweets = get_new_citations(folder+mail, query, twitter)
+        mailtext, tweets = get_new_citations(folder+mail, query, twitter_name)
         
         # Send E-Mail
         if send_mail:
             if mailtext != []:
                 print('Sending mail to', mail)
-                #print('mailtext')
-                #print(mailtext)
                 send_mail_func(mailtext, mail)
                 print('Mail sent.')
             else:
