@@ -1,10 +1,10 @@
 name: CheckForNewCitations
 
-on: [push]
+#on: [push]
 
-#on:
-#  schedule:
-#    - cron: '30 18 * * *'
+on:
+  schedule:
+    - cron: '10 * * * *'
 
 jobs:
   build:
@@ -39,7 +39,6 @@ jobs:
         git add --all
         # git commit -m "Add changes" -a
         git diff --quiet && git diff --staged --quiet || git commit -am 'Add changes'
-
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
