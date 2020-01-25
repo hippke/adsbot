@@ -114,7 +114,7 @@ def get_new_citations(filename, query, twitter):
                 known_citing_papers.append(citing_paper.bibcode)
                 no_authors = len(citing_paper.author)
                 if no_authors > 1:
-                    text_et_al = ' et al. '
+                    text_et_al = ' et al.'
                 else:
                     text_et_al = ''
                 counter_new_papers +=1
@@ -130,7 +130,7 @@ def get_new_citations(filename, query, twitter):
                 tweet = '@' + twitter + ' Your paper \"' + \
                     shorten_string(paper.title[0], chars=chars_title_my_paper_max) + \
                     '\" was cited by ' + \
-                    shorten_string(citing_paper.author[0], chars=chars_author_citing_paper_max) + ': '
+                    shorten_string(citing_paper.author[0], chars=chars_author_citing_paper_max) + text_et_al + ': '
                 remaining_chars = chars_total_max - len(tweet)
                 tweet = tweet + shorten_string(citing_paper.title[0], chars=remaining_chars-chars_ADS_url)
                 tweet = tweet + ' https://ui.adsabs.harvard.edu/abs/' + str(citing_paper.bibcode)
