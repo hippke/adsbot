@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 
 
 # CONSTANTS
-filename_participants = 'participants.csv'
-delimiter = '|'
+subscribers_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr1cqBIet6x-04q1TPVboWi9IgPGfemIovBrWcRk5tEqhFhNQ5Zrfvb8Lkq4qWam5AXPhq9kSRjffA/pub?gid=208468094&single=true&output=tsv"
 folder = "data/"
+max_papers_per_user = 200
 ads.config.token = os.environ.get('SECRET_ADS_CONFIG_TOKEN')
 
 # Twitter
@@ -60,12 +60,16 @@ def check_if_new_citations(filename, query):
     except:
         print('Error in ADS query')
         return False
+    counter = 0
     for citing_paper in citing_papers:
         print(citing_paper.bibcode)
+        counter +=1
         if citing_paper.bibcode not in known_citing_papers:
             print('New paper found!', citing_paper.bibcode)
             new_paper_found = True
-            break
+    if counter > max_papers_per_user:
+        print('Error: Too many papers for this user:', counter, 'threshold:', max_papers_per_user)
+        new_paper_found = False
     print(citing_papers.response.get_ratelimits())
     return new_paper_found
 
@@ -145,42 +149,44 @@ def send_mail(mailtext, address_to):
 
 
 
-file = open(filename_participants, "r")
+
+
 twitter = Twython(
     os.environ.get('consumer_key'),
     os.environ.get('consumer_secret'),
     os.environ.get('access_token'),
     os.environ.get('access_token_secret')
     )
-for line in file:
-    adr = line.split(delimiter)[0]
-    twitter_username = line.split(delimiter)[1]
-    query = line.split(delimiter)[2].rstrip()
+print('Subscribers:')
+for line in requests.get(subscribers_url).text.splitlines():
+    mail, send_mail, twitter, send_tweet, query  = line.split("\t")[1:6]
+    print(mail, send_mail, twitter, send_tweet, query)
+    #adr = line.split(delimiter)[0]
+    #twitter_username = line.split(delimiter)[1]
+    #query = line.split(delimiter)[2].rstrip()
     
     # Quick check if new papers are found for this query
-    new_paper_found = check_if_new_citations(folder+adr, query)
+    new_paper_found = check_if_new_citations(folder+mail, query)
     
     # If yes, iter over all papers of this author to check WHICH papers are cited
     if new_paper_found:
-        print('New paper(s) found for', adr)
-        mailtext, tweets = get_new_citations(folder+adr, query)
+        print('New paper(s) found for', mail)
+        mailtext, tweets = get_new_citations(folder+mail, query)
         
         # Send E-Mail
-        if adr == '':
-            print('No email address provided, skipping email')
-        else:
+        if send_mail:
             if mailtext != []:
                 print('Sending mail to', adr)
                 send_mail(mailtext, adr)
                 print('Mail sent.')
             else:
                 print('Empty mailtext, should be something here!')
+        else:
+            print('No email address provided, skipping email')
             
         # Send Twitter tweet
-        if twitter_username == '':
-            print('No twitter_username provided, skipping twitter', twitter_username)
-        else:
-            print('Twitter_username provided, tweeting to:', twitter_username)
+        if send_tweet:
+            print('Twitter_username provided, tweeting to:', twitter)
             counter = 0
             for idx in range(len(tweets)):
                 if counter >= max_tweets_per_user:
@@ -189,6 +195,9 @@ for line in file:
                 print('Tweeting tweet:', tweets[idx])
                 #twitter.update_status(status=tweets[idx])
                 counter += 1
+            
+        else:
+            print('No twitter_username provided, skipping twitter', twitter)
     else:
-        print('No new paper found for', adr)
+        print('No new paper found for', mail)
 print('End of script.')
