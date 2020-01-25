@@ -18,7 +18,7 @@ was cited by Heller, René et al. - Transit least-squares survey (...)
 [https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..66H/abstract](https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..66H/abstract)
 
 ## How to register?
-Register and manage your settings with this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSejpaPLTVaI3KZZcgvPGBLwmkn26yMX5MpGwf9kQINzGC8Olw/viewform?vc=0&c=0&w=1&usp=mail_form_link) 
+Register and manage your settings with this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdIcdU7t96Qby8bgQXVGxA8iuT2KVCbrEJWegKXV2utXAGioQ/viewform?vc=0&c=0&w=1&usp=mail_form_link) 
 - If you want to receive Twitter tweets, follow [AdsCitations](https://twitter.com/AdsCitations).
 - In the form, provide your ADS search string:
   - This is an ADS search which yields *the papers you have published*.
