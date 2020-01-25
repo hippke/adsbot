@@ -28,7 +28,7 @@ Register and manage your settings with this [Google Form](https://docs.google.co
   - People with a common name may try something like [this example](https://ui.adsabs.harvard.edu/search/q=author%3A(%22Heller%2C%20R%22)%20AND%20NOT%20author%3A%22Sarkar%2C%20S%22%20AND%20NOT%20author%3A%22Abdou%2C%20Y%22%20AND%20pubdate%3A%5B2009-01%20TO%209999-12%5D%20AND%20database%3Aastronomy%20AND%20property%3Arefereed&sort=date%20desc%2C%20bibcode%20desc&p_=0). Alternatively, assign an ORCiD to your papers and search for `orcid:XXX`. You can also search for [your bibcodes](https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Caff%2Cauthor%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Ccitation_count_norm%2Cemail%2Cdoctype&q=bibcode%3A(2019IJAsB..18..393H%20OR%202019AJ....158..143H)&rows=25&sort=date%20desc%2C%20bibcode%20desc&start=0&p_=0).
   - You need to insert the *search string from the ADS search box* into the registration form (*not the ADS URL from your browser*).
 
-## Next steps
+## Update mode
 - After registration, you will receive an E-Mail (if you select E-Mail updates) with *all* citations found initially. Afterwards, the bot will search ADS *once per day* for *new* citations and send you an E-Mail *if and only if* you have received new citations.
 - If you added your Twitter username, you will receive *up to three tweets per day* about new citations.
 
