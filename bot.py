@@ -112,9 +112,14 @@ def get_new_citations(filename, query, twitter):
         for citing_paper in citing_papers:
             if paper.citation_count > 0 and citing_paper.bibcode not in known_citing_papers:
                 known_citing_papers.append(citing_paper.bibcode)
+                no_authors = len(citing_paper.author)
+                if no_authors > 1:
+                    text_et_al = ' et al. '
+                else:
+                    text_et_al = ''
                 counter_new_papers +=1
                 text = 'New citation to:\n' + paper.title[0] + '\nby: ' + \
-                    citing_paper.author[0] + " - " + \
+                    citing_paper.author[0] + text_et_al + " - " + \
                     citing_paper.title[0] + "\n" + \
                     'https://ui.adsabs.harvard.edu/abs/' + str(citing_paper.bibcode) + "\n"
                 print(text)
