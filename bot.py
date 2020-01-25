@@ -167,13 +167,19 @@ for line in file:
     twitter_username = line.split(delimiter)[1]
     query = line.split(delimiter)[2].rstrip()
     
+    # If no E-Mail given, user Twitter handle as bibcode filename
+    if adr == '':
+        bibcodefile = twitter_username
+    else:
+        bibcodefile = adr
+    
     # Quick check if new papers are found for this query
-    new_paper_found = check_if_new_citations(folder + adr, query)
+    new_paper_found = check_if_new_citations(folder+bibcodefile, query)
     
     # If yes, iter over all papers of this author to check WHICH papers are cited
     if new_paper_found:
         print('New paper(s) found for', adr)
-        mailtext, tweets = get_new_citations(folder + adr, query)
+        mailtext, tweets = get_new_citations(folder+bibcodefile, query)
         
         # Send E-Mail
         if adr == '':
