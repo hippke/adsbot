@@ -141,21 +141,21 @@ def get_new_citations(filename, query, twitter):
 
 def send_mail_func(mailtext_content, adr):
     print('Entering send_mail function')
-    #server = smtplib.SMTP(smtp_server, smtp_port)
+    server = smtplib.SMTP(smtp_server, smtp_port)
     print('1')
-    #server.login(mail_from, os.environ.get('SECRET_MAIL_PASSWORD'))
+    server.login(mail_from, os.environ.get('SECRET_MAIL_PASSWORD'))
     print('2')
     #print('mailtext:')
     #print(mailtext)
-    #msg = MIMEText('\n'.join(mailtext))
+    msg = MIMEText('\n'.join(mailtext))
     print('3')
-    #msg['Subject'] =  "ADS bot: New citations"
+    msg['Subject'] =  "ADS bot: New citations"
     print('4')
-    #msg['From'] = mail_from
+    msg['From'] = mail_from
     print('5')
-    #msg['To'] = adr
+    msg['To'] = adr
     print('6')
-    #server.sendmail(mail_from, adr, msg.as_string())
+    server.sendmail(mail_from, adr, msg.as_string())
     print('7')
 
 
