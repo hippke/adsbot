@@ -3,6 +3,7 @@ import codecs
 import os.path
 import os
 import ads
+import requests
 from twython import Twython
 from email.mime.text import MIMEText
 
