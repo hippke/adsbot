@@ -20,7 +20,7 @@ was cited by Heller, René et al. - Transit least-squares survey (...)
 ## How to register?
 Register and manage your settings with this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSejpaPLTVaI3KZZcgvPGBLwmkn26yMX5MpGwf9kQINzGC8Olw/viewform?vc=0&c=0&w=1&usp=mail_form_link) 
 - If you want to receive Twitter tweets, follow [AdsCitations](https://twitter.com/AdsCitations).
-- Provide your ADS search string:
+- In the form, provide your ADS search string:
   - This is an ADS search which yields *the papers you have published*.
   - [For example](https://ui.adsabs.harvard.edu/search/q=%20author%3A%22hippke%2Cm.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0): `author:hippke,m`
   - The bot will search for citations *to these papers*.
