@@ -139,7 +139,7 @@ def get_new_citations(filename, query, twitter):
     return mailtext, tweets
 
 
-def send_mail(mailtext, address_to):
+def send_mail(mailtext, mail):
     print('Entering send_mail function')
     server = smtplib.SMTP(smtp_server, smtp_port)
     print('1')
@@ -153,9 +153,9 @@ def send_mail(mailtext, address_to):
     print('4')
     msg['From'] = mail_from
     print('5')
-    msg['To'] = address_to
+    msg['To'] = mail
     print('6')
-    server.sendmail(mail_from, address_to, msg.as_string())
+    server.sendmail(mail_from, mail, msg.as_string())
     print('7')
 
 
@@ -186,6 +186,8 @@ for line in subscribers:
         if send_mail:
             if mailtext != []:
                 print('Sending mail to', mail)
+                print('mailtext')
+                print(mailtext)
                 send_mail(mailtext, mail)
                 print('Mail sent.')
             else:
