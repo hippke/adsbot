@@ -176,8 +176,8 @@ subscribers = iter(requests.get(subscribers_url).text.splitlines())
 # Skip first row which holds the headers
 next(subscribers)
 for line in subscribers:
-    mail, send_mail, twitter, send_tweet, query  = line.split("\t")[1:6]
-    print(mail, send_mail, twitter, send_tweet, query)
+    mail, send_mail, twitter_name, send_tweet, query  = line.split("\t")[1:6]
+    print(mail, send_mail, twitter_name, send_tweet, query)
 
     # Quick check if new papers are found for this query
     new_paper_found = check_if_new_citations(folder+mail, query)
@@ -193,7 +193,7 @@ for line in subscribers:
                 print('Sending mail to', mail)
                 #print('mailtext')
                 #print(mailtext)
-                send_mail_func(mailtext, mail)#mailtext, mail)
+                send_mail_func(mailtext, mail)
                 print('Mail sent.')
             else:
                 print('Empty mailtext, should be something here!')
@@ -202,7 +202,7 @@ for line in subscribers:
             
         # Send Twitter tweet
         if send_tweet:
-            print('Twitter_username provided, tweeting to:', twitter)
+            print('Twitter_username provided, tweeting to:', twitter_name)
             counter = 0
             for idx in range(len(tweets)):
                 if counter >= max_tweets_per_user:
@@ -213,7 +213,7 @@ for line in subscribers:
                 counter += 1
             
         else:
-            print('No twitter_username provided, skipping twitter', twitter)
+            print('No twitter_username provided, skipping twitter', twitter_name)
     else:
         print('No new paper found for', mail)
 print('End of script.')
