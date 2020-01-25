@@ -143,17 +143,7 @@ def send_mail(mailtext, address_to):
     msg['To'] = address_to
     server.sendmail(mail_from, address_to, msg.as_string())
 
-    
-    
-# DEBUG
-"""
-search_string = 'author:hippke,m'
-citing_papers = ads.SearchQuery(q=search_string, sort="date")  # , rows=20)
-for citing_paper in citing_papers:
-    print(citing_paper.bibcode)
-print(citing_papers.response.get_ratelimits())
-"""
-# DEBUG END
+
 
 file = open(filename_participants, "r")
 twitter = Twython(
@@ -167,19 +157,13 @@ for line in file:
     twitter_username = line.split(delimiter)[1]
     query = line.split(delimiter)[2].rstrip()
     
-    # If no E-Mail given, user Twitter handle as bibcode filename
-    if adr == '':
-        bibcodefile = twitter_username
-    else:
-        bibcodefile = adr
-    
     # Quick check if new papers are found for this query
-    new_paper_found = check_if_new_citations(folder+bibcodefile, query)
+    new_paper_found = check_if_new_citations(folder+adr, query)
     
     # If yes, iter over all papers of this author to check WHICH papers are cited
     if new_paper_found:
         print('New paper(s) found for', adr)
-        mailtext, tweets = get_new_citations(folder+bibcodefile, query)
+        mailtext, tweets = get_new_citations(folder+adr, query)
         
         # Send E-Mail
         if adr == '':
