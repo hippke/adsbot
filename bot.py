@@ -156,7 +156,11 @@ twitter = Twython(
     os.environ.get('access_token_secret')
     )
 print('Subscribers:')
-for line in requests.get(subscribers_url).text.splitlines():
+
+subscribers = iter(requests.get(subscribers_url).text.splitlines())
+# Skip first row which holds the headers
+next(subscribers)
+for line in subscribers:
     mail, send_mail, twitter, send_tweet, query  = line.split("\t")[1:6]
     print(mail, send_mail, twitter, send_tweet, query)
 
@@ -171,8 +175,8 @@ for line in requests.get(subscribers_url).text.splitlines():
         # Send E-Mail
         if send_mail:
             if mailtext != []:
-                print('Sending mail to', adr)
-                send_mail(mailtext, adr)
+                print('Sending mail to', mail)
+                send_mail(mailtext, mail)
                 print('Mail sent.')
             else:
                 print('Empty mailtext, should be something here!')
