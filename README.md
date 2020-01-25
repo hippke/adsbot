@@ -3,7 +3,7 @@ ADS citation bot
 Informs you via E-Mail and/or [Twitter](https://twitter.com/AdsCitations) about new citations to your academic papers.
 
 ## What does it do?
-When one of your papers receives a new citation on ADS, you will get an E-Mail with the following text:
+When one of your papers receives a new citation on ADS, you can get an E-Mail with the following text:
 
 > New citation to:
 Optimized transit detection algorithm
@@ -11,7 +11,7 @@ by: Heller, René et al. - Transit least-squares survey (...)
 [https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..66H/abstract](https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..66H/abstract)
 
 
-If you have registered with your Twitter account, you will be tweeted:
+If you add your Twitter account, you will be tweeted:
 
 > [@hippke](https://twitter.com/hippke) Your paper "Optimized transit detection algorithm" 
 was cited by Heller, René et al. - Transit least-squares survey (...) 
