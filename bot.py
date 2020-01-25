@@ -188,7 +188,7 @@ for line in subscribers:
                 print('Sending mail to', mail)
                 #print('mailtext')
                 #print(mailtext)
-                send_mail_func('1', '2')#mailtext, mail)
+                send_mail_func(mailtext, mail)#mailtext, mail)
                 print('Mail sent.')
             else:
                 print('Empty mailtext, should be something here!')
