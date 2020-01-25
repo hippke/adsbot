@@ -75,7 +75,7 @@ def check_if_new_citations(filename, query):
     return new_paper_found
 
 
-def get_new_citations(filename, query):
+def get_new_citations(filename, query, twitter):
     """
     Searches ADS with 'query'. In each paper with >0 citations, it pulls the citations.
     If a citation is not in 'filename', it is added to the returned text.
@@ -122,7 +122,7 @@ def get_new_citations(filename, query):
                 filehandle.writelines(citing_paper.bibcode+ '\n')
                 
                 # Twitter string
-                tweet = '@' + twitter_username + ' Your paper \"' + \
+                tweet = '@' + twitter + ' Your paper \"' + \
                     shorten_string(paper.title[0], chars=chars_title_my_paper_max) + \
                     '\" was cited by ' + \
                     shorten_string(citing_paper.author[0], chars=chars_author_citing_paper_max) + ': '
@@ -149,9 +149,6 @@ def send_mail(mailtext, address_to):
     server.sendmail(mail_from, address_to, msg.as_string())
 
 
-
-
-
 twitter = Twython(
     os.environ.get('consumer_key'),
     os.environ.get('consumer_secret'),
@@ -162,17 +159,14 @@ print('Subscribers:')
 for line in requests.get(subscribers_url).text.splitlines():
     mail, send_mail, twitter, send_tweet, query  = line.split("\t")[1:6]
     print(mail, send_mail, twitter, send_tweet, query)
-    #adr = line.split(delimiter)[0]
-    #twitter_username = line.split(delimiter)[1]
-    #query = line.split(delimiter)[2].rstrip()
-    
+
     # Quick check if new papers are found for this query
     new_paper_found = check_if_new_citations(folder+mail, query)
     
     # If yes, iter over all papers of this author to check WHICH papers are cited
     if new_paper_found:
         print('New paper(s) found for', mail)
-        mailtext, tweets = get_new_citations(folder+mail, query)
+        mailtext, tweets = get_new_citations(folder+mail, query, twitter)
         
         # Send E-Mail
         if send_mail:
