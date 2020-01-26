@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 subscribers_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr1cqBIet6x-04q1TPVboWi9IgPGfemIovBrWcRk5tEqhFhNQ5Zrfvb8Lkq4qWam5AXPhq9kSRjffA/pub?gid=208468094&single=true&output=tsv"
 folder = "data/"
 max_papers_per_user = 200
-ads.config.token = 'kcy1toBYw40EuNrTGzJC65IZ4kz3U0zJ4FiW9oU4'
+ads.config.token = "kcy1toBYw40EuNrTGzJC65IZ4kz3U0zJ4FiW9oU4"
 
 # Twitter
 chars_total_max = 280  # Twitter tweets are at most 280 chars
@@ -98,19 +98,19 @@ def check_if_new_citations(filename, query):
 
 
 def compose_tweet(
-        twitter_username,
-        paper_title,
-        citing_paper_author,
-        citing_paper_title,
-        citing_paper_bibcode
-    ):
+    twitter_username,
+    paper_title,
+    citing_paper_author,
+    citing_paper_title,
+    citing_paper_bibcode,
+):
     """Example:
     tweet: @hippke Your paper "Photometry’s Bright Future (...)" 
     was cited by Angerhausen, Daniel et al.: 
     A Comprehensive Study of Kepler Phase Curves and Secondary Eclipses (...) 
     https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
     """
-    
+
     if len(citing_paper_author) > 1:
         text_et_al = " et al."
     else:
@@ -121,9 +121,7 @@ def compose_tweet(
         + ' Your paper "'
         + shorten_string(paper_title, chars=chars_title_my_paper_max)
         + '" was cited by '
-        + shorten_string(
-            citing_paper_author[0], chars=chars_author_citing_paper_max
-        )
+        + shorten_string(citing_paper_author[0], chars=chars_author_citing_paper_max)
         + text_et_al
         + ": "
     )
@@ -132,19 +130,12 @@ def compose_tweet(
     tweet = tweet + shorten_string(
         citing_paper_title, chars=remaining_chars - chars_ADS_url
     )
-    tweet = (
-        tweet
-        + " https://ui.adsabs.harvard.edu/abs/"
-        + citing_paper_bibcode
-    )
+    tweet = tweet + " https://ui.adsabs.harvard.edu/abs/" + citing_paper_bibcode
     return tweet
 
 
 def compose_mail_segment(
-    paper_title,
-    citing_paper_author,
-    citing_paper_title,
-    citing_paper_bibcode
+    paper_title, citing_paper_author, citing_paper_title, citing_paper_bibcode
 ):
     """Example:
     New citation to:
@@ -158,7 +149,7 @@ def compose_mail_segment(
         text_et_al = " et al."
     else:
         text_et_al = ""
-    
+
     text = (
         "New citation to:\n"
         + paper_title
@@ -227,10 +218,10 @@ def get_new_citations(filename, query, twitter_username):
                     paper.title[0],
                     citing_paper.author,
                     citing_paper.title[0],
-                    str(citing_paper.bibcode)
-                    )
+                    str(citing_paper.bibcode),
+                )
                 mailtext.append(mailtext_segment)
-                print('Mail segment:', mailtext_segment)
+                print("Mail segment:", mailtext_segment)
 
                 # Twitter tweet
                 tweet = compose_tweet(
@@ -238,8 +229,8 @@ def get_new_citations(filename, query, twitter_username):
                     paper.title[0],
                     citing_paper.author,
                     citing_paper.title[0],
-                    str(citing_paper.bibcode)
-                    )
+                    str(citing_paper.bibcode),
+                )
                 tweets.append(tweet)
                 print("tweet:", tweet)
             else:
@@ -339,5 +330,5 @@ def run_bot():
     print("End of script.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run_bot()
