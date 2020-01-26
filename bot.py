@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 subscribers_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr1cqBIet6x-04q1TPVboWi9IgPGfemIovBrWcRk5tEqhFhNQ5Zrfvb8Lkq4qWam5AXPhq9kSRjffA/pub?gid=208468094&single=true&output=tsv"
 folder = "data/"
 max_papers_per_user = 200
-ads.config.token = os.environ.get("SECRET_ADS_CONFIG_TOKEN")
+ads.config.token = 'kcy1toBYw40EuNrTGzJC65IZ4kz3U0zJ4FiW9oU4'
 
 # Twitter
 chars_total_max = 280  # Twitter tweets are at most 280 chars
@@ -21,6 +21,12 @@ chars_title_my_paper_max = 50
 chars_author_citing_paper_max = 50
 chars_ADS_url = 53
 max_tweets_per_user = 3
+twitter = Twython(
+    os.environ.get("consumer_key"),
+    os.environ.get("consumer_secret"),
+    os.environ.get("access_token"),
+    os.environ.get("access_token_secret"),
+)
 
 # E-Mail
 smtp_server = "smtp.hippke.org"
@@ -91,7 +97,85 @@ def check_if_new_citations(filename, query):
     return new_paper_found
 
 
-def get_new_citations(filename, query, twitter):
+def compose_tweet(
+        twitter_username,
+        paper_title,
+        citing_paper_author,
+        citing_paper_title,
+        citing_paper_bibcode
+    ):
+    """Example:
+    tweet: @hippke Your paper "Photometry’s Bright Future (...)" 
+    was cited by Angerhausen, Daniel et al.: 
+    A Comprehensive Study of Kepler Phase Curves and Secondary Eclipses (...) 
+    https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
+    """
+    
+    if len(citing_paper_author) > 1:
+        text_et_al = " et al."
+    else:
+        text_et_al = ""
+    tweet = (
+        "@"
+        + twitter_username
+        + ' Your paper "'
+        + shorten_string(paper_title, chars=chars_title_my_paper_max)
+        + '" was cited by '
+        + shorten_string(
+            citing_paper_author[0], chars=chars_author_citing_paper_max
+        )
+        + text_et_al
+        + ": "
+    )
+    # Calculate remaining chars (max 280) and fit in the citing paper and its URL
+    remaining_chars = chars_total_max - len(tweet)
+    tweet = tweet + shorten_string(
+        citing_paper_title, chars=remaining_chars - chars_ADS_url
+    )
+    tweet = (
+        tweet
+        + " https://ui.adsabs.harvard.edu/abs/"
+        + citing_paper_bibcode
+    )
+    return tweet
+
+
+def compose_mail_segment(
+    paper_title,
+    citing_paper_author,
+    citing_paper_title,
+    citing_paper_bibcode
+):
+    """Example:
+    New citation to:
+    Photometry’s Bright Future: Detecting Solar System Analogs with Future Space Telescopes
+    by: Angerhausen, Daniel et al. - A Comprehensive Study of Kepler Phase Curves and 
+    Secondary Eclipses: Temperatures and Albedos of Confirmed Kepler Giant Planets
+    https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
+    """
+
+    if len(citing_paper_author) > 1:
+        text_et_al = " et al."
+    else:
+        text_et_al = ""
+    
+    text = (
+        "New citation to:\n"
+        + paper_title
+        + "\nby: "
+        + citing_paper_author[0]
+        + text_et_al
+        + " - "
+        + citing_paper_title
+        + "\n"
+        + "https://ui.adsabs.harvard.edu/abs/"
+        + citing_paper_bibcode
+        + "\n"
+    )
+    return text
+
+
+def get_new_citations(filename, query, twitter_username):
     """
     Searches ADS with 'query'. In each paper with >0 citations, it pulls the citations.
     If a citation is not in 'filename', it is added to the returned text.
@@ -104,7 +188,9 @@ def get_new_citations(filename, query, twitter):
     Returns
     -------
     mailtext : List of strings
-        Text which describes new citations. If empty, no new citations were found.
+        Text which describes new citations. Empty if no new citations.
+    tweets : List of strings
+        Tweeter tweets composed of new citations. Empty if no new citations.
     """
     counter_new_papers = 0
     mailtext = []
@@ -130,51 +216,30 @@ def get_new_citations(filename, query, twitter):
                 paper.citation_count > 0
                 and citing_paper.bibcode not in known_citing_papers
             ):
-                known_citing_papers.append(citing_paper.bibcode)
-                if len(citing_paper.author) > 1:
-                    text_et_al = " et al."
-                else:
-                    text_et_al = ""
                 counter_new_papers += 1
-                text = (
-                    "New citation to:\n"
-                    + paper.title[0]
-                    + "\nby: "
-                    + citing_paper.author[0]
-                    + text_et_al
-                    + " - "
-                    + citing_paper.title[0]
-                    + "\n"
-                    + "https://ui.adsabs.harvard.edu/abs/"
-                    + str(citing_paper.bibcode)
-                    + "\n"
-                )
-                print(text)
-                mailtext.append(text)
+
+                # Add to list of known citing bibcodes
+                known_citing_papers.append(citing_paper.bibcode)
                 filehandle.writelines(citing_paper.bibcode + "\n")
 
-                # Twitter string
-                tweet = (
-                    "@"
-                    + twitter
-                    + ' Your paper "'
-                    + shorten_string(paper.title[0], chars=chars_title_my_paper_max)
-                    + '" was cited by '
-                    + shorten_string(
-                        citing_paper.author[0], chars=chars_author_citing_paper_max
+                # Mail segment
+                mailtext_segment = compose_mail_segment(
+                    paper.title[0],
+                    citing_paper.author,
+                    citing_paper.title[0],
+                    str(citing_paper.bibcode)
                     )
-                    + text_et_al
-                    + ": "
-                )
-                remaining_chars = chars_total_max - len(tweet)
-                tweet = tweet + shorten_string(
-                    citing_paper.title[0], chars=remaining_chars - chars_ADS_url
-                )
-                tweet = (
-                    tweet
-                    + " https://ui.adsabs.harvard.edu/abs/"
-                    + str(citing_paper.bibcode)
-                )
+                mailtext.append(mailtext_segment)
+                print('Mail segment:', mailtext_segment)
+
+                # Twitter tweet
+                tweet = compose_tweet(
+                    twitter_username,
+                    paper.title[0],
+                    citing_paper.author,
+                    citing_paper.title[0],
+                    str(citing_paper.bibcode)
+                    )
                 tweets.append(tweet)
                 print("tweet:", tweet)
             else:
@@ -205,67 +270,74 @@ def send_mail_func(mailtext_content, adr):
     server.sendmail(mail_from, adr, msg.as_string())
 
 
-twitter = Twython(
-    os.environ.get("consumer_key"),
-    os.environ.get("consumer_secret"),
-    os.environ.get("access_token"),
-    os.environ.get("access_token_secret"),
-)
-print("Subscribers:")
-subscribers = iter(requests.get(subscribers_url).text.splitlines())
-# Skip first row which holds the headers
-next(subscribers)
-for line in subscribers:
-    mail, send_mail, twitter_name, send_tweet, query = line.split("\t")[1:6]
+def get_subscribers(subscribers_url):
+    subscribers = iter(requests.get(subscribers_url).text.splitlines())
+    next(subscribers)  # Skip first row which holds the headers
+    subs = []
+    for line in subscribers:
+        mail, send_mail, twitter_name, send_tweet, query = line.split("\t")[1:6]
 
-    if send_mail == "Yes":
-        send_mail = True
-    else:
-        send_mail = False
+        if send_mail == "Yes":
+            send_mail = True
+        else:
+            send_mail = False
 
-    if send_tweet == "Yes":
-        send_tweet = True
-    else:
-        send_tweet = False
+        if send_tweet == "Yes":
+            send_tweet = True
+        else:
+            send_tweet = False
 
-    print(mail, send_mail, twitter_name, send_tweet, query)
+        subs.append([mail, send_mail, twitter_name, send_tweet, query])
+    return subs
 
-    # Quick check if new papers are found for this query
-    new_paper_found = check_if_new_citations(folder + mail, query)
 
-    # If yes, iter over all papers of this author to check WHICH papers are cited
-    if new_paper_found:
-        print("New paper(s) found for", mail)
-        mailtext, tweets = get_new_citations(folder + mail, query, twitter_name)
+def run_bot():
+    print("Subscribers:")
+    subs = get_subscribers(subscribers_url)
+    for sub in subs:
+        mail, send_mail, twitter_name, send_tweet, query = sub
+        print(mail, send_mail, twitter_name, send_tweet, query)
 
-        # Send E-Mail
-        if send_mail:
-            if mailtext != []:
-                print("Sending mail to", mail)
-                send_mail_func(mailtext, mail)
-                print("Mail sent.")
+        # Quick check if new papers are found for this query
+        new_paper_found = check_if_new_citations(folder + mail, query)
+
+        # If yes, iter over all papers of this author to check WHICH papers are cited
+        if new_paper_found:
+            print("New paper(s) found for", mail)
+            mailtext, tweets = get_new_citations(folder + mail, query, twitter_name)
+
+            # Send E-Mail
+            if send_mail:
+                if mailtext != []:
+                    print("Sending mail to", mail)
+                    send_mail_func(mailtext, mail)
+                    print("Mail sent.")
+                else:
+                    print("Empty mailtext, should be something here!")
             else:
-                print("Empty mailtext, should be something here!")
-        else:
-            print("No email address provided, skipping email")
+                print("No email address provided, skipping email")
 
-        # Send Twitter tweet
-        if send_tweet:
-            print("Twitter_username provided, tweeting to:", twitter_name)
-            counter = 0
-            for idx in range(len(tweets)):
-                if counter >= max_tweets_per_user:
-                    print(
-                        "Maximum number of tweets reached, aborting:",
-                        max_tweets_per_user,
-                    )
-                    break
-                print("Tweeting tweet:", tweets[idx])
-                twitter.update_status(status=tweets[idx])
-                counter += 1
+            # Send Twitter tweet
+            if send_tweet:
+                print("Twitter_username provided, tweeting to:", twitter_name)
+                counter = 0
+                for idx in range(len(tweets)):
+                    if counter >= max_tweets_per_user:
+                        print(
+                            "Maximum number of tweets reached, aborting:",
+                            max_tweets_per_user,
+                        )
+                        break
+                    print("Tweeting tweet:", tweets[idx])
+                    twitter.update_status(status=tweets[idx])
+                    counter += 1
 
+            else:
+                print("No twitter_username provided, skipping twitter", twitter_name)
         else:
-            print("No twitter_username provided, skipping twitter", twitter_name)
-    else:
-        print("No new paper found for", mail)
-print("End of script.")
+            print("No new paper found for", mail)
+    print("End of script.")
+
+
+if __name__ == '__main__':
+    run_bot()
