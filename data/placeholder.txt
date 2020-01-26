@@ -1,1 +1,1 @@
-123
+To avoid that this folder gets removed by git
