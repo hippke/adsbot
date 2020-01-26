@@ -30,7 +30,7 @@ Register and manage your settings with this [Google Form](https://docs.google.co
 
 ## Update mode
 - After registration, you will receive an E-Mail (if you select E-Mail updates) with *all* citations found initially.
-- Afterwards, the bot will search ADS send you an E-Mail *if and only if* you have received new citations.
+- Afterwards, the bot will search ADS periodically send you an E-Mail *if and only if* you have received new citations (and if you select E-Mail updates).
 - If you add your Twitter username, you will receive tweets about new citations.
 
 ## Issues
