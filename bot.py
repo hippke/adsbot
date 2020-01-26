@@ -166,6 +166,17 @@ subscribers = iter(requests.get(subscribers_url).text.splitlines())
 next(subscribers)
 for line in subscribers:
     mail, send_mail, twitter_name, send_tweet, query  = line.split("\t")[1:6]
+    
+    if send_mail == 'Yes':
+        send_mail = True
+    else:
+        send_mail = False
+        
+    if send_tweet == 'Yes':
+        send_tweet = True
+    else:
+        send_tweet = False
+        
     print(mail, send_mail, twitter_name, send_tweet, query)
 
     # Quick check if new papers are found for this query
