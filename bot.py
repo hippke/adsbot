@@ -79,7 +79,15 @@ def check_if_new_citations(filename, query):
             max_papers_per_user,
         )
         new_paper_found = False
-    print(citing_papers.response.get_ratelimits())
+    wait_until = datetime.datetime.utcfromtimestamp(
+        int(citing_papers.response.get_ratelimits()["reset"])
+    )
+    print(
+        "Requests remaining:",
+        citing_papers.response.get_ratelimits()["remaining"],
+        "Reset in (hrs):",
+        round((wait_until - datetime.datetime.now()).seconds / (3600), 1),
+    )
     return new_paper_found
 
 
