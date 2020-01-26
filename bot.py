@@ -233,8 +233,8 @@ def get_new_citations(filename, query, twitter_username):
                 )
                 tweets.append(tweet)
                 print("tweet:", tweet)
-            else:
-                print(citing_paper.bibcode, "no new citations")
+            #else:
+                #print(citing_paper.bibcode, "no new citations")
 
     wait_until = datetime.datetime.utcfromtimestamp(
         int(citing_papers.response.get_ratelimits()["reset"])
