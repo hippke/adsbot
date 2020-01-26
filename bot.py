@@ -131,8 +131,7 @@ def get_new_citations(filename, query, twitter):
                 and citing_paper.bibcode not in known_citing_papers
             ):
                 known_citing_papers.append(citing_paper.bibcode)
-                no_authors = len(citing_paper.author)
-                if no_authors > 1:
+                if len(citing_paper.author) > 1:
                     text_et_al = " et al."
                 else:
                     text_et_al = ""
