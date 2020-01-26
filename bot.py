@@ -63,7 +63,7 @@ def check_if_new_citations(filename, query):
         return False
     counter = 0
     for citing_paper in citing_papers:
-        print(citing_paper.bibcode)
+        #print(citing_paper.bibcode)
         counter +=1
         if citing_paper.bibcode not in known_citing_papers:
             print('New paper found!', citing_paper.bibcode)
