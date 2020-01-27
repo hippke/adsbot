@@ -14,7 +14,7 @@ path = "mails/"
 def send_mail_func(mailtext_content, adr):
     server = smtplib.SMTP(smtp_server, smtp_port)
     server.login(mail_from, os.environ.get("SECRET_MAIL_PASSWORD"))
-    msg = MIMEText("\n".join(mailtext_content))
+    msg = MIMEText("".join(mailtext_content))
     msg["Subject"] = "ADS bot: New citations"
     msg["From"] = mail_from
     msg["To"] = adr
