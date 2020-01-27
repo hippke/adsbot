@@ -1,4 +1,4 @@
-name: CheckForNewCitations
+name: Load citations
 
 #on: [push]
 
@@ -19,16 +19,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install ads twython
+        pip install ads
     - name: Load_citations
       env:
-        SECRET_MAIL_PASSWORD: ${{ secrets.SECRET_MAIL_PASSWORD }}
-        SECRET_ADS_CONFIG_TOKEN: ${{ secrets.SECRET_ADS_CONFIG_TOKEN }}
         SECRET_GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_TOKEN }}
-        consumer_key: ${{ secrets.consumer_key }}
-        consumer_secret: ${{ secrets.consumer_secret }}
-        access_token: ${{ secrets.access_token }}
-        access_token_secret: ${{ secrets.access_token_secret }}
         ads_config_token: ${{ secrets.ads_config_token }}
       run: |
         python bot.py
