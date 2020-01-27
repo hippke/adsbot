@@ -1,6 +1,6 @@
 name: CheckForNewCitations
 
-on: [push]
+#on: [push]
 
 #on:
 #  schedule:
