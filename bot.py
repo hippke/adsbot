@@ -288,16 +288,13 @@ def run_bot():
             # Save Twitter tweet
             if send_tweet:
                 print("Twitter_username provided, creating tweets for:", twitter_name)
+                if not os.path.exists(path_tweets):
+                    os.makedirs(path_tweets)
                 for idx in range(len(tweets)):
                     if idx >= max_tweets_per_user:
-                        print(
-                            "Maximum number of tweets reached, aborting:",
-                            max_tweets_per_user,
-                        )
+                        print("max_tweets_per_user, aborting:", max_tweets_per_user)
                         break
                     output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
-                    if not os.path.exists(path_tweets):
-                        os.makedirs(path_tweets)
                     filehandle = open(path_tweets+output_filename, "w")
                     filehandle.writelines(tweets[idx])
                     filehandle.close()
