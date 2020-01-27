@@ -287,10 +287,9 @@ def run_bot():
 
             # Save Twitter tweet
             if send_tweet:
-                print("Twitter_username provided, tweeting to:", twitter_name)
-                counter = 0
+                print("Twitter_username provided, creating tweets for:", twitter_name)
                 for idx in range(len(tweets)):
-                    if counter >= max_tweets_per_user:
+                    if idx >= max_tweets_per_user:
                         print(
                             "Maximum number of tweets reached, aborting:",
                             max_tweets_per_user,
@@ -303,7 +302,6 @@ def run_bot():
                     filehandle.writelines(tweets[idx])
                     filehandle.close()
                     print('Created', path_tweets+output_filename, tweets[idx])
-                    counter += 1
 
             else:
                 print("No twitter_username provided, skipping twitter", twitter_name)
