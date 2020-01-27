@@ -1,6 +1,6 @@
 name: Mail
 
-#on: [push]
+on: [push]
 
 #on:
 #  schedule:
