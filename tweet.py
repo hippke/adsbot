@@ -24,4 +24,4 @@ if os.path.exists(path):
         counter += 1
         if counter >= max_tweets_per_run:
             print('max_tweets_per_run reached, aborting:', max_tweets_per_run)
-            breal
+            break
