@@ -2,7 +2,7 @@
 from twython import Twython
 import os
 
-max_tweets_per_run = 2
+max_tweets_per_run = 3
 path = "tweets/"
 twitter = Twython(
     os.environ.get("consumer_key"),
