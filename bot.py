@@ -77,14 +77,6 @@ def check_if_new_citations(filename, query):
         if citing_paper.bibcode not in known_citing_papers:
             print("New paper found!", citing_paper.bibcode)
             new_paper_found = True
-    if counter > max_papers_per_user:
-        print(
-            "Error: Too many papers for this user:",
-            counter,
-            "threshold:",
-            max_papers_per_user,
-        )
-        new_paper_found = False
     wait_until = datetime.datetime.utcfromtimestamp(
         int(citing_papers.response.get_ratelimits()["reset"])
     )
