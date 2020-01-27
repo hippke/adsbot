@@ -141,7 +141,7 @@ def compose_mail_segment(
         + "\n"
         + "https://ui.adsabs.harvard.edu/abs/"
         + citing_paper_bibcode
-        + "\n"
+        + "\n\n"
     )
     return text
 
