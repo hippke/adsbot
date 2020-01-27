@@ -1,6 +1,6 @@
 name: Send_tweets
 
-#on: [push]
+on: [push]
 
 #on:
 #  schedule:
