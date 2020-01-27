@@ -35,5 +35,4 @@ Register and manage your settings with this [Google Form](https://docs.google.co
 
 ## Issues
 - The information you provide (E-Mail, Twitter handle, ADS query) will be processed by Github Actions and become exposed to the public.
-- Users with very many papers may be removed to avoid overload. The current limit is 200 papers.
 - If you have any issues, please [open an issue on Github](https://github.com/hippke/adsbot/issues)
