@@ -29,6 +29,7 @@ jobs:
         consumer_secret: ${{ secrets.consumer_secret }}
         access_token: ${{ secrets.access_token }}
         access_token_secret: ${{ secrets.access_token_secret }}
+        ads_config_token: ${{ secrets.ads_config_token }}
       run: |
         python bot.py
     - name: Commit files
