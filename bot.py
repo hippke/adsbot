@@ -5,33 +5,23 @@ import os.path
 import os
 import ads
 import requests
-from twython import Twython
-from email.mime.text import MIMEText
+import hashlib
 
 
 # CONSTANTS
 subscribers_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr1cqBIet6x-04q1TPVboWi9IgPGfemIovBrWcRk5tEqhFhNQ5Zrfvb8Lkq4qWam5AXPhq9kSRjffA/pub?gid=208468094&single=true&output=tsv"
 folder = "data/"
 max_papers_per_user = 200
-ads.config.token = "kcy1toBYw40EuNrTGzJC65IZ4kz3U0zJ4FiW9oU4"
+ads.config.token = os.environ.get("ads_config_token")
+path_mails = "mails/"
 
 # Twitter
+path_tweets = "tweets/"
 chars_total_max = 280  # Twitter tweets are at most 280 chars
 chars_title_my_paper_max = 50
 chars_author_citing_paper_max = 50
 chars_ADS_url = 53
 max_tweets_per_user = 3
-twitter = Twython(
-    os.environ.get("consumer_key"),
-    os.environ.get("consumer_secret"),
-    os.environ.get("access_token"),
-    os.environ.get("access_token_secret"),
-)
-
-# E-Mail
-smtp_server = "smtp.hippke.org"
-mail_from = "adsbot@hippke.org"
-smtp_port = "587"
 
 
 def shorten_string(
@@ -243,16 +233,6 @@ def get_new_citations(filename, query, twitter_username):
     return mailtext, tweets
 
 
-def send_mail_func(mailtext_content, adr):
-    server = smtplib.SMTP(smtp_server, smtp_port)
-    server.login(mail_from, os.environ.get("SECRET_MAIL_PASSWORD"))
-    msg = MIMEText("\n".join(mailtext_content))
-    msg["Subject"] = "ADS bot: New citations"
-    msg["From"] = mail_from
-    msg["To"] = adr
-    server.sendmail(mail_from, adr, msg.as_string())
-
-
 def get_subscribers(subscribers_url):
     subscribers = iter(requests.get(subscribers_url).text.splitlines())
     next(subscribers)  # Skip first row which holds the headers
@@ -292,15 +272,22 @@ def run_bot():
             # Send E-Mail
             if send_mail:
                 if mailtext != []:
-                    print("Sending mail to", mail)
-                    send_mail_func(mailtext, mail)
+                    print("Saving mail to", mail)
+                    if not os.path.exists(path_mails):
+                        os.makedirs(path_mails)
+                    output_filename = mail  # Mail address is filename
+                    filehandle = open(path_mails+output_filename, "w")
+                    filehandle.writelines(mailtext)
+                    filehandle.close()
+                    print('Created', path_mails+output_filename, tweets[idx])
+                    #send_mail_func(mailtext, mail)
                     print("Mail sent.")
                 else:
                     print("Empty mailtext, should be something here!")
             else:
                 print("No email address provided, skipping email")
 
-            # Send Twitter tweet
+            # Save Twitter tweet
             if send_tweet:
                 print("Twitter_username provided, tweeting to:", twitter_name)
                 counter = 0
@@ -311,8 +298,13 @@ def run_bot():
                             max_tweets_per_user,
                         )
                         break
-                    print("Tweeting tweet:", tweets[idx])
-                    twitter.update_status(status=tweets[idx])
+                    output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
+                    if not os.path.exists(path_tweets):
+                        os.makedirs(path_tweets)
+                    filehandle = open(path_tweets+output_filename, "w")
+                    filehandle.writelines(tweets[idx])
+                    filehandle.close()
+                    print('Created', path_tweets+output_filename, tweets[idx])
                     counter += 1
 
             else:
