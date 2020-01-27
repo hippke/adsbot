@@ -4,7 +4,7 @@ name: Send_tweets
 
 on:
   schedule:
-    - cron: '59 * * * *'
+    - cron: '30 * * * *'
 
 jobs:
   build:
