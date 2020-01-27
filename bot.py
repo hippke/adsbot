@@ -1,7 +1,5 @@
-import smtplib
 import codecs
 import datetime
-import os.path
 import os
 import ads
 import requests
@@ -279,7 +277,7 @@ def run_bot():
                     filehandle = open(path_mails+output_filename, "w")
                     filehandle.writelines(mailtext)
                     filehandle.close()
-                    print('Created', path_mails+output_filename, tweets[idx])
+                    print('Created', path_mails+output_filename)
                     #send_mail_func(mailtext, mail)
                     print("Mail sent.")
                 else:
