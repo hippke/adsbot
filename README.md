@@ -22,9 +22,9 @@ Register and manage your settings with this [Google Form](https://docs.google.co
 - If you want to receive Twitter tweets, follow [AdsCitations](https://twitter.com/AdsCitations).
 - In the form, provide your ADS search string:
   - This is an ADS search which yields *the papers you have published*.
-  - [For example](https://ui.adsabs.harvard.edu/search/q=%20author%3A%22hippke%2Cm.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0): `author:hippke,m`
   - The bot will search for citations *to these papers*.
   - To create and test your query, open [ADS](https://ui.adsabs.harvard.edu/) and fiddle with the search until (ideally) all of your papers, but *only your papers*, are found.
+     - [For example](https://ui.adsabs.harvard.edu/search/q=%20author%3A%22hippke%2Cm.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0): `author:hippke,m`
      - People with a common name may try something like [this example](https://ui.adsabs.harvard.edu/search/q=author%3A(%22Heller%2C%20R%22)%20AND%20NOT%20author%3A%22Sarkar%2C%20S%22%20AND%20NOT%20author%3A%22Abdou%2C%20Y%22%20AND%20pubdate%3A%5B2009-01%20TO%209999-12%5D%20AND%20database%3Aastronomy%20AND%20property%3Arefereed&sort=date%20desc%2C%20bibcode%20desc&p_=0).
      - Alternatively, assign an ORCiD to your papers and search for `orcid:XXX`. You can also search for [your bibcodes](https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Caff%2Cauthor%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Ccitation_count_norm%2Cemail%2Cdoctype&q=bibcode%3A(2019IJAsB..18..393H%20OR%202019AJ....158..143H)&rows=25&sort=date%20desc%2C%20bibcode%20desc&start=0&p_=0).
      - Another option is to link to a [library](https://ui.adsabs.harvard.edu/search/q=docs(library%2F2rdsLcoaQSyp3Prie-EQAw)&sort=date%20desc%2C%20bibcode%20desc&p_=0) which you create on ADS. The query is: `docs(library/library-number-taken-from-library-URL)`
