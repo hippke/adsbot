@@ -4,6 +4,7 @@ import os
 import ads
 import requests
 import hashlib
+from urllib.parse import unquote
 
 
 # CONSTANTS
@@ -12,6 +13,7 @@ folder = "data/"
 max_papers_per_user = 200
 ads.config.token = os.environ.get("ads_config_token")
 path_mails = "mails/"
+error_mail = "michael@jaekle.info"  # Prepare mail if error occurs
 
 # Twitter
 path_tweets = "tweets/"
@@ -25,7 +27,7 @@ max_tweets_per_user = 3
 def shorten_string(
     string, chars=40, separators=[":", " - ", "?", ". ", "—"], continuation=" (...)"
 ):
-
+    """Shorten Twitter tweet strings gracefully after separators or word endings"""
     # Split by separators
     if len(string) > (chars - len(continuation)):
         for separator in separators:
@@ -40,6 +42,28 @@ def shorten_string(
         pos = string.rindex(" ")
         string = string[:pos] + continuation
     return string
+
+
+def safe_ads_query(query):
+    """If user provides URL instead of query, return only the query"""
+    if query.startswith("http"):
+        try:
+            query = unquote(unquote(query))
+            query = query.split("ui.adsabs.harvard.edu/search/q=", 1)[1]
+            query = query.split("&", 1)[0]  # Before the first & which indicates sorting
+            return query
+        except:
+            print("URL conversion failed, preparing mail to", error_mail)
+            if not os.path.exists(path_mails):
+                os.makedirs(path_mails)
+            output_filename = error_mail  # Mail address is filename
+            filehandle = open(path_mails+output_filename, "w")
+            filehandle.writelines("URL query conversion failed:" + query)
+            filehandle.close()
+            print('Created', path_mails+output_filename)
+            return ""
+    else:
+        return query
 
 
 def check_if_new_citations(filename, query):
@@ -258,6 +282,11 @@ def run_bot():
     for sub in subs:
         mail, send_mail, twitter_name, send_tweet, query = sub
         print(mail, send_mail, twitter_name, send_tweet, query)
+        
+        # Some users provide the ADS URL instead of the search string
+        # Try to convert. If that failes, send a mail error to me (for now)
+        # It this will be a common problem, consider mailing the user directly
+        query = safe_ads_query(query)
 
         # Quick check if new papers are found for this query
         new_paper_found = check_if_new_citations(folder + mail, query)
@@ -278,7 +307,6 @@ def run_bot():
                     filehandle.writelines(mailtext)
                     filehandle.close()
                     print('Created', path_mails+output_filename)
-                    #send_mail_func(mailtext, mail)
                     print("Mail sent.")
                 else:
                     print("Empty mailtext, should be something here!")
