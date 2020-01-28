@@ -242,7 +242,7 @@ def run_bot():
                 print('Created', path_mails+output_filename)
                 print("Mail saved")
             else:
-                print("Empty mailtext, should be something here!")
+                print("No mail.")
         else:
             print("No email address provided, skipping email")
 
