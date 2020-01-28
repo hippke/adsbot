@@ -117,8 +117,8 @@ def compose_tweet(
     else:
         if len(citing_paper_author) > 1:
             text_et_al = " et al."
-    else:
-        text_et_al = ""
+        else:
+            text_et_al = ""
     tweet = (
         "@"
         + twitter_username
@@ -154,6 +154,8 @@ def compose_mail_segment(
     else:
         if len(citing_paper_author) > 1:
             text_et_al = " et al."
+        else:
+            text_et_al = ""
 
     text = (
         "New citation to:\n"
