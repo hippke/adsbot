@@ -2,9 +2,9 @@ name: Mail
 
 #on: [push]
 
-on:
-  schedule:
-    - cron: '45 * * * *'
+#on:
+#  schedule:
+#    - cron: '45 * * * *'
 
 jobs:
   build:
