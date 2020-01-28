@@ -112,9 +112,11 @@ def compose_tweet(
     A Comprehensive Study of Kepler Phase Curves and Secondary Eclipses (...) 
     https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
     """
-
-    if len(citing_paper_author) > 1:
-        text_et_al = " et al."
+    if citing_paper_author is None:
+        text_et_al = ""
+    else:
+        if len(citing_paper_author) > 1:
+            text_et_al = " et al."
     else:
         text_et_al = ""
     tweet = (
@@ -147,10 +149,11 @@ def compose_mail_segment(
     https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
     """
 
-    if len(citing_paper_author) > 1:
-        text_et_al = " et al."
-    else:
+    if citing_paper_author is None:
         text_et_al = ""
+    else:
+        if len(citing_paper_author) > 1:
+            text_et_al = " et al."
 
     text = (
         "New citation to:\n"
