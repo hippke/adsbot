@@ -66,39 +66,37 @@ def safe_ads_query(query):
         return query
 
 
-def check_if_new_citations(filename, query):
+def modern_ads_check(filename, query):
     if not os.path.isfile(filename):
-        filehandle = open(filename, "w")
-        filehandle.close()
-    filehandle = open(filename, "r")
-    known_citing_papers = [line.rstrip("\n") for line in filehandle]
-    filehandle = open(filename, "a")  # append
-    new_paper_found = False
-    search_string = "citations(" + query + ")"
-    print("Running ADS with query", search_string)
-    try:
-        citing_papers = ads.SearchQuery(q=search_string, sort="date", rows=20)
-        citing_papers.execute()
-    except:
-        print("Error in ADS query")
-        return False
-    counter = 0
-    for citing_paper in citing_papers:
-        # print(citing_paper.bibcode)
-        counter += 1
-        if citing_paper.bibcode not in known_citing_papers:
-            print("New paper found!", citing_paper.bibcode)
-            new_paper_found = True
-    wait_until = datetime.datetime.utcfromtimestamp(
-        int(citing_papers.response.get_ratelimits()["reset"])
-    )
-    print(
-        "Requests remaining:",
-        citing_papers.response.get_ratelimits()["remaining"],
-        "Reset in (hrs):",
-        round((wait_until - datetime.datetime.now()).seconds / (3600), 1),
-    )
-    return new_paper_found
+        f = open(filename, "w")
+        f.close()
+    f = open(filename, "r")
+    known_citing_papers = [line.rstrip("\n") for line in f]
+    f = open(filename, "a")
+    print("Running ADS with query", query)
+    papers = ads.SearchQuery(q=query, rows=2000, fl=["bibcode", "citation", "title"])
+    papers.execute()
+    print("Requests remaining:", papers.response.get_ratelimits()["remaining"])
+    new_cits = []
+    for paper in papers:
+        if paper.citation is not None:
+            for cit in paper.citation:
+                if cit not in known_citing_papers:
+                    print("new cit to", paper.bibcode, "by", cit)
+                    f.writelines(cit + "\n")
+                    # This is a new citing paper. We want its title and authors
+                    citing_papers = ads.SearchQuery(q="bibcode:"+cit)
+                    for citing_paper in citing_papers:
+                        new_cits.append(
+                            [
+                                paper.title[0],
+                                citing_paper.author,
+                                citing_paper.title[0],
+                                citing_paper.bibcode,
+                            ]
+                        )
+    f.close()
+    return new_cits
 
 
 def compose_tweet(
@@ -170,91 +168,6 @@ def compose_mail_segment(
     return text
 
 
-def get_new_citations(filename, query, twitter_username):
-    """
-    Searches ADS with 'query'. In each paper with >0 citations, it pulls the citations.
-    If a citation is not in 'filename', it is added to the returned text.
-    Can't use query 'citations(hippke)' because that doesn't give the origin of the cit. 
-    Parameters
-    ----------    
-    query : string
-        ADS search query which returns papers of author.
-        These are used to search for new citations to them.
-    Returns
-    -------
-    mailtext : List of strings
-        Text which describes new citations. Empty if no new citations.
-    tweets : List of strings
-        Tweeter tweets composed of new citations. Empty if no new citations.
-    """
-    counter_new_papers = 0
-    mailtext = []
-    tweets = []
-    # File which holds list of bibcodes with known citing papers, each in a new line
-    if not os.path.isfile(filename):
-        filehandle = open(filename, "w")  # Append
-        filehandle.close()
-    filehandle = open(filename, "r")
-    known_citing_papers = [line.rstrip("\n") for line in filehandle]
-    filehandle = open(filename, "a")
-    lazy_evaluation = ["bibcode", "title", "author", "citation_count"]
-    my_papers = ads.SearchQuery(q=query, sort="citation_count", fl=lazy_evaluation)
-    print("Papers by", query)
-    for paper in my_papers:
-        citing_papers = ads.SearchQuery(
-            q="citations(bibcode:" + paper.bibcode + ")",
-            sort="date",
-            fl=lazy_evaluation,
-        )
-        for citing_paper in citing_papers:
-            if (
-                paper.citation_count > 0
-                and citing_paper.bibcode not in known_citing_papers
-            ):
-                counter_new_papers += 1
-
-                # Add to list of known citing bibcodes
-                known_citing_papers.append(citing_paper.bibcode)
-                filehandle.writelines(citing_paper.bibcode + "\n")
-
-                # Mail segment
-                mailtext_segment = compose_mail_segment(
-                    paper.title[0],
-                    citing_paper.author,
-                    citing_paper.title[0],
-                    str(citing_paper.bibcode),
-                )
-                mailtext.append(mailtext_segment)
-                print("Mail segment:", mailtext_segment)
-
-                # Twitter tweet
-                tweet = compose_tweet(
-                    twitter_username,
-                    paper.title[0],
-                    citing_paper.author,
-                    citing_paper.title[0],
-                    str(citing_paper.bibcode),
-                )
-                tweets.append(tweet)
-                print("tweet:", tweet)
-            #else:
-                #print(citing_paper.bibcode, "no new citations")
-
-    wait_until = datetime.datetime.utcfromtimestamp(
-        int(citing_papers.response.get_ratelimits()["reset"])
-    )
-    print(
-        "Requests remaining:",
-        citing_papers.response.get_ratelimits()["remaining"],
-        "Reset in (hrs):",
-        round((wait_until - datetime.datetime.now()).seconds / (3600), 1),
-    )
-
-    print("new papers:", counter_new_papers)
-    filehandle.close()
-    return mailtext, tweets
-
-
 def get_subscribers(subscribers_url):
     subscribers = iter(requests.get(subscribers_url).text.splitlines())
     next(subscribers)  # Skip first row which holds the headers
@@ -287,51 +200,70 @@ def run_bot():
         # Try to convert. If that failes, send a mail error to me (for now)
         # It this will be a common problem, consider mailing the user directly
         query = safe_ads_query(query)
+        
+        new_cits = modern_ads_check(folder+mail, query)
+        tweets = []
+        mailtext = []
+        for cit in new_cits:
+            paper_title, citing_paper_author, citing_paper_title, citing_paper_bibcode = cit
 
-        # Quick check if new papers are found for this query
-        new_paper_found = check_if_new_citations(folder + mail, query)
+            # Twitter tweet
+            tweet = compose_tweet(
+                twitter_name,
+                paper_title,
+                citing_paper_author,
+                citing_paper_title,
+                citing_paper_bibcode,
+                )
+            tweets.append(tweet)
+            print("tweet:", tweet)
+            print("")
 
-        # If yes, iter over all papers of this author to check WHICH papers are cited
-        if new_paper_found:
-            print("New paper(s) found for", mail)
-            mailtext, tweets = get_new_citations(folder + mail, query, twitter_name)
+            # Mail segment
+            mailtext_segment = compose_mail_segment(
+                paper_title,
+                citing_paper_author,
+                citing_paper_title,
+                citing_paper_bibcode,
+            )
+            mailtext.append(mailtext_segment)
+            print(mailtext_segment)
 
-            # Send E-Mail
-            if send_mail:
-                if mailtext != []:
-                    print("Saving mail to", mail)
-                    if not os.path.exists(path_mails):
-                        os.makedirs(path_mails)
-                    output_filename = mail  # Mail address is filename
-                    filehandle = open(path_mails+output_filename, "w")
-                    filehandle.writelines(mailtext)
-                    filehandle.close()
-                    print('Created', path_mails+output_filename)
-                    print("Mail sent.")
-                else:
-                    print("Empty mailtext, should be something here!")
+        # Save E-Mail
+        if send_mail:
+            if mailtext != []:
+                print("Saving mail to", mail)
+                if not os.path.exists(path_mails):
+                    os.makedirs(path_mails)
+                output_filename = mail  # Mail address is filename
+                filehandle = open(path_mails+output_filename, "w")
+                filehandle.writelines(mailtext)
+                filehandle.close()
+                print('Created', path_mails+output_filename)
+                print("Mail saved")
             else:
-                print("No email address provided, skipping email")
-
-            # Save Twitter tweet
-            if send_tweet:
-                print("Twitter_username provided, creating tweets for:", twitter_name)
-                if not os.path.exists(path_tweets):
-                    os.makedirs(path_tweets)
-                for idx in range(len(tweets)):
-                    if idx >= max_tweets_per_user:
-                        print("max_tweets_per_user, aborting:", max_tweets_per_user)
-                        break
-                    output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
-                    filehandle = open(path_tweets+output_filename, "w")
-                    filehandle.writelines(tweets[idx])
-                    filehandle.close()
-                    print('Created', path_tweets+output_filename, tweets[idx])
-
-            else:
-                print("No twitter_username provided, skipping twitter", twitter_name)
+                print("Empty mailtext, should be something here!")
         else:
-            print("No new paper found for", mail)
+            print("No email address provided, skipping email")
+
+        # Save Twitter tweet
+        if send_tweet:
+            print("Twitter_username provided, creating tweets for:", twitter_name)
+            if not os.path.exists(path_tweets):
+                os.makedirs(path_tweets)
+            for idx in range(len(tweets)):
+                if idx >= max_tweets_per_user:
+                    print("max_tweets_per_user, aborting:", max_tweets_per_user)
+                    break
+                output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
+                filehandle = open(path_tweets+output_filename, "w")
+                filehandle.writelines(tweets[idx])
+                filehandle.close()
+                print('Created', path_tweets+output_filename, tweets[idx])
+
+        else:
+            print("No twitter_username provided, skipping twitter", twitter_name)
+
     print("End of script.")
 
 
