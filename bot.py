@@ -113,7 +113,7 @@ def compose_tweet(
     https://ui.adsabs.harvard.edu/abs/2015PASP..127.1113A
     """
     if citing_paper_author is None:
-        text_et_al = ""
+        return ""
     else:
         if len(citing_paper_author) > 1:
             text_et_al = " et al."
@@ -150,7 +150,7 @@ def compose_mail_segment(
     """
 
     if citing_paper_author is None:
-        text_et_al = ""
+        return ""
     else:
         if len(citing_paper_author) > 1:
             text_et_al = " et al."
