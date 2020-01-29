@@ -1,5 +1,3 @@
-import codecs
-import datetime
 import os
 import ads
 import requests
@@ -65,7 +63,7 @@ def safe_ads_query(query):
         return query
 
 
-def modern_ads_check(filename, query):
+def ads_check(filename, query):
     if not os.path.isfile(filename):
         f = open(filename, "w")
         f.close()
@@ -81,7 +79,7 @@ def modern_ads_check(filename, query):
         if paper.citation is not None:
             for cit in paper.citation:
                 if cit not in known_citing_papers:
-                    print("new cit to", paper.bibcode, "by", cit)
+                    print("    new cit to", paper.bibcode, "by", cit)
                     f.writelines(cit + "\n")
                     # This is a new citing paper. We want its title and authors
                     citing_papers = ads.SearchQuery(q="bibcode:"+cit)
@@ -205,7 +203,7 @@ def run_bot():
         # It this will be a common problem, consider mailing the user directly
         query = safe_ads_query(query)
         
-        new_cits = modern_ads_check(folder+mail, query)
+        new_cits = ads_check(folder+mail, query)
         tweets = []
         mailtext = []
         for cit in new_cits:
@@ -243,16 +241,16 @@ def run_bot():
                 filehandle = open(path_mails+output_filename, "w")
                 filehandle.writelines(mailtext)
                 filehandle.close()
-                print('Created', path_mails+output_filename)
-                print("Mail saved")
+                #print('Created', path_mails+output_filename)
+                #print("Mail saved")
             else:
-                print("No mail.")
-        else:
-            print("No email address provided, skipping email")
+                print("No mail")
+        #else:
+        #    print("No email address provided, skipping email")
 
         # Save Twitter tweet
         if send_tweet:
-            print("Twitter_username provided, creating tweets for:", twitter_name)
+            #print("Twitter_username provided, creating tweets for:", twitter_name)
             if not os.path.exists(path_tweets):
                 os.makedirs(path_tweets)
             for idx in range(len(tweets)):
@@ -263,12 +261,10 @@ def run_bot():
                 filehandle = open(path_tweets+output_filename, "w")
                 filehandle.writelines(tweets[idx])
                 filehandle.close()
-                print('Created', path_tweets+output_filename, tweets[idx])
-
-        else:
-            print("No twitter_username provided, skipping twitter", twitter_name)
-
-    print("End of script.")
+                print('Tweet created', path_tweets+output_filename, tweets[idx])
+        #else:
+        #    print("No twitter_username provided, skipping twitter", twitter_name)
+    #print("End of script.")
 
 
 if __name__ == "__main__":
