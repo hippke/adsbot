@@ -9,9 +9,9 @@ from urllib.parse import unquote
 
 # CONSTANTS
 subscribers_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr1cqBIet6x-04q1TPVboWi9IgPGfemIovBrWcRk5tEqhFhNQ5Zrfvb8Lkq4qWam5AXPhq9kSRjffA/pub?gid=208468094&single=true&output=tsv"
-max_papers_per_user = 200
 ads.config.token = os.environ.get("ads_config_token")
 path_mails = "mails/"
+folder = "data/"
 error_mail = "michael@jaekle.info"  # Prepare mail if error occurs
 
 # Twitter
