@@ -4,8 +4,8 @@ name: Load citations
 
 on:
   schedule:
-    - cron: '50 * * * *'
-    #- cron: '0 */4 * * *'
+    #- cron: '50 * * * *'
+    - cron: '0 */4 * * *'
 
 jobs:
   build:
