@@ -74,12 +74,17 @@ def ads_check(filename, query):
     papers = ads.SearchQuery(q=query, rows=2000, fl=["bibcode", "citation", "title"])
     papers.execute()
     print("Requests remaining:", papers.response.get_ratelimits()["remaining"])
+    counter = 0
+    counter_max = int(papers.response.get_ratelimits()["remaining"]) - 5
     new_cits = []
     for paper in papers:
         if paper.citation is not None:
             for cit in paper.citation:
                 if cit not in known_citing_papers:
                     print("    new cit to", paper.bibcode, "by", cit)
+                    counter += 1
+                    if counter > counter_max:
+                        break
                     f.writelines(cit + "\n")
                     # This is a new citing paper. We want its title and authors
                     citing_papers = ads.SearchQuery(q="bibcode:"+cit)
