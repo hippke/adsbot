@@ -266,12 +266,8 @@ def run_bot():
                     filehandle.writelines(tweets[idx])
                     filehandle.close()
                     print('Tweet created', path_tweets+output_filename, tweets[idx])
-            except:
-                print('Failed somewhere')
-            #else:
-            #    print("No twitter_username provided, skipping twitter", twitter_name)
-        #print("End of script.")
-
+        except:
+            print('Failed somewhere')
 
 if __name__ == "__main__":
     run_bot()
