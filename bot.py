@@ -207,69 +207,70 @@ def run_bot():
         # Try to convert. If that failes, send a mail error to me (for now)
         # It this will be a common problem, consider mailing the user directly
         query = safe_ads_query(query)
-        
-        new_cits = ads_check(folder+mail, query)
-        tweets = []
-        mailtext = []
-        for cit in new_cits:
-            paper_title, citing_paper_author, citing_paper_title, citing_paper_bibcode = cit
+        try:
+            new_cits = ads_check(folder+mail, query)
+            tweets = []
+            mailtext = []
+            for cit in new_cits:
+                paper_title, citing_paper_author, citing_paper_title, citing_paper_bibcode = cit
+                # Twitter tweet
+                tweet = compose_tweet(
+                    twitter_name,
+                    paper_title,
+                    citing_paper_author,
+                    citing_paper_title,
+                    citing_paper_bibcode,
+                    )
+                tweets.append(tweet)
+                print("tweet:", tweet)
+                print("")
 
-            # Twitter tweet
-            tweet = compose_tweet(
-                twitter_name,
-                paper_title,
-                citing_paper_author,
-                citing_paper_title,
-                citing_paper_bibcode,
+                # Mail segment
+                mailtext_segment = compose_mail_segment(
+                    paper_title,
+                    citing_paper_author,
+                    citing_paper_title,
+                    citing_paper_bibcode,
                 )
-            tweets.append(tweet)
-            print("tweet:", tweet)
-            print("")
+                mailtext.append(mailtext_segment)
+                print(mailtext_segment)
 
-            # Mail segment
-            mailtext_segment = compose_mail_segment(
-                paper_title,
-                citing_paper_author,
-                citing_paper_title,
-                citing_paper_bibcode,
-            )
-            mailtext.append(mailtext_segment)
-            print(mailtext_segment)
+            # Save E-Mail
+            if send_mail:
+                if mailtext != []:
+                    print("Saving mail to", mail)
+                    if not os.path.exists(path_mails):
+                        os.makedirs(path_mails)
+                    output_filename = mail  # Mail address is filename
+                    filehandle = open(path_mails+output_filename, "w")
+                    filehandle.writelines(mailtext)
+                    filehandle.close()
+                    #print('Created', path_mails+output_filename)
+                    #print("Mail saved")
+                else:
+                    print("No mail")
+            #else:
+            #    print("No email address provided, skipping email")
 
-        # Save E-Mail
-        if send_mail:
-            if mailtext != []:
-                print("Saving mail to", mail)
-                if not os.path.exists(path_mails):
-                    os.makedirs(path_mails)
-                output_filename = mail  # Mail address is filename
-                filehandle = open(path_mails+output_filename, "w")
-                filehandle.writelines(mailtext)
-                filehandle.close()
-                #print('Created', path_mails+output_filename)
-                #print("Mail saved")
-            else:
-                print("No mail")
-        #else:
-        #    print("No email address provided, skipping email")
-
-        # Save Twitter tweet
-        if send_tweet:
-            #print("Twitter_username provided, creating tweets for:", twitter_name)
-            if not os.path.exists(path_tweets):
-                os.makedirs(path_tweets)
-            for idx in range(len(tweets)):
-                if idx >= max_tweets_per_user:
-                    print("max_tweets_per_user, aborting:", max_tweets_per_user)
-                    break
-                output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
-                filehandle = open(path_tweets+output_filename, "w")
-                filehandle.writelines(tweets[idx])
-                filehandle.close()
-                print('Tweet created', path_tweets+output_filename, tweets[idx])
-        #else:
-        #    print("No twitter_username provided, skipping twitter", twitter_name)
-    #print("End of script.")
+            # Save Twitter tweet
+            if send_tweet:
+                #print("Twitter_username provided, creating tweets for:", twitter_name)
+                if not os.path.exists(path_tweets):
+                    os.makedirs(path_tweets)
+                for idx in range(len(tweets)):
+                    if idx >= max_tweets_per_user:
+                        print("max_tweets_per_user, aborting:", max_tweets_per_user)
+                        break
+                    output_filename = hashlib.md5(tweets[idx].encode('utf-8')).hexdigest()
+                    filehandle = open(path_tweets+output_filename, "w")
+                    filehandle.writelines(tweets[idx])
+                    filehandle.close()
+                    print('Tweet created', path_tweets+output_filename, tweets[idx])
+            except:
+                print('Failed somewhere')
+            #else:
+            #    print("No twitter_username provided, skipping twitter", twitter_name)
+        #print("End of script.")
 
 
 if __name__ == "__main__":
