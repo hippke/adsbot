@@ -1,6 +1,6 @@
 name: Load citations
 
-on: [push]
+#on: [push]
 
 #on:
 #  schedule:
