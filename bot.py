@@ -18,7 +18,7 @@ chars_total_max = 280  # Twitter tweets are at most 280 chars
 chars_title_my_paper_max = 50
 chars_author_citing_paper_max = 50
 chars_ADS_url = 53
-max_tweets_per_user = 5
+max_tweets_per_user = 20
 
 
 def shorten_string(
