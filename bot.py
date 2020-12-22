@@ -78,7 +78,7 @@ def ads_check(filename, query):
     try:
         counter_max = int(papers.response.get_ratelimits()["remaining"]) - 500
     except:
-        counter_max = 5000
+        counter_max = 20000
     new_cits = []
     for paper in papers:
         if paper.citation is not None:
