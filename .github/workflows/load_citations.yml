@@ -1,15 +1,15 @@
 name: Load citations
 
-on: [push]
+#on: [push]
 
-#on:
-#  schedule:
-#    - cron: '0 */4 * * *'
+on:
+  schedule:
+    - cron: '0 */4 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 120
     steps:
     - uses: actions/checkout@v1
     - name: Set up Python 3.7
