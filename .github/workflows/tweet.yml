@@ -1,10 +1,10 @@
 name: Send_tweets
 
-#on: [push]
+on: [push]
 
-on:
-  schedule:
-    - cron: '45 * * * *'
+#on:
+#  schedule:
+#    - cron: '45 * * * *'
 
 jobs:
   build:
@@ -41,3 +41,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.SECRET_GITHUB_TOKEN }}
+        branches: master
