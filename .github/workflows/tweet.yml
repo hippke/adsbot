@@ -1,10 +1,10 @@
 name: Send_tweets
 
-#on: [push]
+on: [push]
 
-on:
-  schedule:
-    - cron: '45 * * * *'
+#on:
+#  schedule:
+#    - cron: '45 * * * *'
 
 jobs:
   build:
@@ -37,8 +37,8 @@ jobs:
         git add --all
         # git commit -m "Add changes" -a
         git diff --quiet && git diff --staged --quiet || git commit -am 'Add changes'
-    - name: Push changes
+    - name: Push
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.SECRET_GITHUB_TOKEN }}
-        #branch: ${{ github.head_ref }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
