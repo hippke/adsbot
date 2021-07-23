@@ -4,7 +4,7 @@ name: Mail
 
 on:
   schedule:
-    - cron: '30 */4 * * *'
+    - cron: '0 8 * * *'
 
 jobs:
   build:
