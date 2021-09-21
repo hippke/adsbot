@@ -1,5 +1,5 @@
 New citation to:
-Thermal emission from WASP-33b, the hottest known planet
-by: Borsa, F. et al. - The GAPS Programme at TNG. XXXI. The WASP-33 system revisited with HARPS-N
-https://ui.adsabs.harvard.edu/abs/2021A&A...653A.104B
+WASP-71b: a bloated hot Jupiter in a 2.9-day, prograde orbit around an evolved F8 star
+by: Laughlin, G. et al. - Exoplanetary Geophysics: An Emerging Discipline
+https://ui.adsabs.harvard.edu/abs/2015trge.book..673L
 

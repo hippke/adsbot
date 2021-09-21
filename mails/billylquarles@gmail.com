@@ -1,5 +1,10 @@
 New citation to:
-Kepler Eclipsing Binary Stars. VII. The Catalog of Eclipsing Binaries Found in the Entire Kepler Data Set
-by: Szabó, R. et al. - A Status Report on the Kepler Pixel Project
-https://ui.adsabs.harvard.edu/abs/2021ASPC..529...44S
+Stability Limits of Circumbinary Planets: Is There a Pile-up in the Kepler CBPs?
+by: Ballantyne, Harry A. et al. - Long-term stability of planets in and around binary stars
+https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.4507B
+
+New citation to:
+Orbital Stability of Circumstellar Planets in Binary Systems
+by: Ballantyne, Harry A. et al. - Long-term stability of planets in and around binary stars
+https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.4507B
 
