@@ -1,30 +1,40 @@
 New citation to:
 Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies
-by: Andersson, Alex et al. - Bursts from Space: MeerKAT - The first citizen science project dedicated to commensal radio transients
-https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1391A
+by: Walmsley, Mike et al. - Zoobot: Adaptable Deep Learning Models for Galaxy Morphology
+https://ui.adsabs.harvard.edu/abs/2023JOSS....8.5312W
 
 New citation to:
-The Fifteenth Data Release of the Sloan Digital Sky Surveys: First Release of MaNGA-derived Quantities, Data Visualization Tools, and Stellar Library
-by: Weerasooriya, Sachi et al. - Devouring the Milky Way Satellites: Modeling Dwarf Galaxies with Galacticus
-https://ui.adsabs.harvard.edu/abs/2023ApJ...948...87W
+Harnessing the Hubble Space Telescope Archives: A Catalog of 21,926 Interacting Galaxies
+by: Walmsley, Mike et al. - Zoobot: Adaptable Deep Learning Models for Galaxy Morphology
+https://ui.adsabs.harvard.edu/abs/2023JOSS....8.5312W
 
 New citation to:
-The Fifteenth Data Release of the Sloan Digital Sky Surveys: First Release of MaNGA-derived Quantities, Data Visualization Tools, and Stellar Library
-by: Hernández-Toledo, H. M. et al. - SDSS-IV MaNGA:The Incidence of Major Mergers in type I and II AGN Host Galaxies in the DR15 sample.
-https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1385H
+Galaxy zoo: stronger bars facilitate quenching in star-forming galaxies
+by: Zee, Woong-Bae G. et al. - Unraveling Joint Evolution of Bars, Star Formation, and Active Galactic Nuclei of Disk Galaxies
+https://ui.adsabs.harvard.edu/abs/2023arXiv230507906Z
 
 New citation to:
-Practical galaxy morphology tools from deep supervised representation learning
-by: Andersson, Alex et al. - Bursts from Space: MeerKAT - The first citizen science project dedicated to commensal radio transients
-https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1391A
+Galaxy Zoo: probabilistic morphology through Bayesian CNNs and active learning
+by: Walmsley, Mike et al. - Zoobot: Adaptable Deep Learning Models for Galaxy Morphology
+https://ui.adsabs.harvard.edu/abs/2023JOSS....8.5312W
 
 New citation to:
-Effect of galaxy mergers on star-formation rates
-by: Noguchi, Masafumi - Anatomy of galactic star formation history: roles of different modes of gas accretion, feedback, and recycling
-https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.4691N
+Galaxy Zoo: Clump Scout: Surveying the Local Universe for Giant Star-forming Clumps
+by: Sattari, Zahra et al. - Fraction of Clumpy Star-Forming Galaxies at $0.5\leq z\leq 3$ in UVCANDELS: Dependence on Stellar Mass and Environment
+https://ui.adsabs.harvard.edu/abs/2023arXiv230509021S
 
 New citation to:
-The Frequency of Dust Lanes in Edge-on Spiral Galaxies Identified by Galaxy Zoo in KiDS Imaging of GAMA Targets
-by: Hernández-Toledo, H. M. et al. - SDSS-IV MaNGA:The Incidence of Major Mergers in type I and II AGN Host Galaxies in the DR15 sample.
-https://ui.adsabs.harvard.edu/abs/2023MNRAS.tmp.1385H
+Galaxy Zoo: quantitative visual morphological classifications for 48 000 galaxies from CANDELS
+by: Zee, Woong-Bae G. et al. - Unraveling Joint Evolution of Bars, Star Formation, and Active Galactic Nuclei of Disk Galaxies
+https://ui.adsabs.harvard.edu/abs/2023arXiv230507906Z
+
+New citation to:
+Investigating Clumpy Galaxies in the Sloan Digital Sky Survey Stripe 82 Using the Galaxy Zoo
+by: Sattari, Zahra et al. - Fraction of Clumpy Star-Forming Galaxies at $0.5\leq z\leq 3$ in UVCANDELS: Dependence on Stellar Mass and Environment
+https://ui.adsabs.harvard.edu/abs/2023arXiv230509021S
+
+New citation to:
+The H I morphology and stellar properties of strongly barred galaxies: support for bar quenching in massive spirals
+by: Zee, Woong-Bae G. et al. - Unraveling Joint Evolution of Bars, Star Formation, and Active Galactic Nuclei of Disk Galaxies
+https://ui.adsabs.harvard.edu/abs/2023arXiv230507906Z
 
