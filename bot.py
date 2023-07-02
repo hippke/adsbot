@@ -257,6 +257,7 @@ def run_bot():
             #    print("No email address provided, skipping email")
 
             # Save Twitter tweet
+            """
             if send_tweet:
                 #print("Twitter_username provided, creating tweets for:", twitter_name)
                 if not os.path.exists(path_tweets):
@@ -270,6 +271,7 @@ def run_bot():
                     filehandle.writelines(tweets[idx])
                     filehandle.close()
                     print('Tweet created', path_tweets+output_filename, tweets[idx])
+            """
     except:
         print('Failed for this sub')
 
