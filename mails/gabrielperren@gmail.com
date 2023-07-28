@@ -1,0 +1,10 @@
+New citation to:
+The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
+by: Xin, Yinzi et al. - On-sky speckle nulling through a single-mode fiber with the Keck Planet Imager and Characterizer
+https://ui.adsabs.harvard.edu/abs/2023arXiv230711893X
+
+New citation to:
+The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
+by: Sosa Fiscella, Sophia V. et al. - The NANOGrav 12.5-Year Data Set: Dispersion Measure Mis-Estimation with Varying Bandwidths
+https://ui.adsabs.harvard.edu/abs/2023arXiv230713248S
+
