@@ -2,8 +2,8 @@ name: Send_tweets
 
 #on: [push]
 
-on:
-  schedule:
+#on:
+#  schedule:
 #    - cron: '45 * * * *'
 #    - cron: '15 * * * *'
 
