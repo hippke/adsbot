@@ -2,9 +2,9 @@ name: Load citations
 
 #on: [push]
 
-#on:
-#  schedule:
-#    - cron: '7 0 * * *'
+on:
+  schedule:
+    - cron: '7 0 * * *'
 
 jobs:
   build:
