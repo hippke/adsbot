@@ -1,230 +1,160 @@
 New citation to:
 CIAO: Chandra's data analysis system
-by: Gagnon, Seth et al. - Chandra X-ray Observations of PSR J1849-0001, its Pulsar Wind Nebula, and the TeV Source HESS J1849-000
-https://ui.adsabs.harvard.edu/abs/2023arXiv231113677G
+by: Sacchi, A. et al. - A soft and transient ultraluminous X-ray source with 6-h modulation in the NGC 300 galaxy
+https://ui.adsabs.harvard.edu/abs/2023arXiv231114792S
 
 New citation to:
 The Chandra Source Catalog
-by: Paliya, Vaidehi S. et al. - Narrow-line Seyfert 1 galaxies in Sloan Digital Sky Survey: a new optical spectroscopic catalogue
-https://ui.adsabs.harvard.edu/abs/2023arXiv231113818P
+by: Kiehlmann, S. et al. - Compact Symmetric Objects -- I Towards a Comprehensive Bona Fide Catalog
+https://ui.adsabs.harvard.edu/abs/2023arXiv230311357K
 
 New citation to:
 Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project
-by: Heo, Jae Bok et al. - Molecular functions of long noncoding transcripts in plants
-https://ui.adsabs.harvard.edu/abs/2015JPBio..58..361H
+by: Li, Dongqiao et al. - Identification and characterization of mRNA-like noncoding RNAs in Salvia miltiorrhiza
+https://ui.adsabs.harvard.edu/abs/2015Plant.241.1131L
 
 New citation to:
 Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project
-by: Vlassis, Arsenios et al. - CRISPR-Cas12a-integrated transgenes in genomic safe harbors retain high expression in human hematopoietic iPSC-derived lineages and primary cells
-https://ui.adsabs.harvard.edu/abs/2023iSci...26j8287V
+by: Tian, Min et al. - Transcriptional regulation of chilling stress responsive long noncoding RNAs in Populus simonii
+https://ui.adsabs.harvard.edu/abs/2019Trees..33..733T
 
 New citation to:
-Chromatin stretch enhancer states drive cell-specific gene regulation and harbor human disease risk variants
-by: Wang, Cheng et al. - Corticosteroid‑induced chromatin loop dynamics at the FKBP5 gene
-https://ui.adsabs.harvard.edu/abs/2023NYASA1529..109W
+The Low Earth Orbit Satellite Population and Impacts of the SpaceX Starlink Constellation
+by: Adams, Carrie Ann et al. - Effects of artificial light on bird movement and distribution: a systematic map
+https://ui.adsabs.harvard.edu/abs/2021EnvEv..10...37A
+
+New citation to:
+The Low Earth Orbit Satellite Population and Impacts of the SpaceX Starlink Constellation
+by: Naik, Rajashree et al. - Monitoring migratory birds of India's largest shallow saline Ramsar site (Sambhar Lake) using geospatial data for wetland restoration
+https://ui.adsabs.harvard.edu/abs/2022WetEM..30..477N
 
 New citation to:
 Comparative analyses of multi-species sequences from targeted genomic regions
-by: Uchida, Naoyuki et al. - Coordination of leaf development via regulation of KNOX1 genes
-https://ui.adsabs.harvard.edu/abs/2010JPlR..123....7U
+by: Goicoechea, Jose Luis et al. - The Future of Rice Genomics: Sequencing the Collective Oryza Genome
+https://ui.adsabs.harvard.edu/abs/2010Rice....3...89G
 
 New citation to:
 Signatures of Adaptation to Obligate Biotrophy in the Hyaloperonospora arabidopsidis Genome
-by: Mishra, Bagdevi et al. - Modelling of structures of ATR1-homologs from sister species of Hyaloperonospora arabidopsidis suggests different patterns for target-mediated and R-protein-mediated selection
-https://ui.adsabs.harvard.edu/abs/2015MycPr..14...71M
+by: Hingamp, Pascal et al. - Exploring nucleo-cytoplasmic large DNA viruses in Tara Oceans microbial metagenomes
+https://ui.adsabs.harvard.edu/abs/2013ISMEJ...7.1678H
 
 New citation to:
-Longitudinal shift in diabetic wound microbiota correlates with prolonged skin defense response
-by: Kirkup, B. C., Jr. et al. - Traumatic Wound Microbiome Workshop
-https://ui.adsabs.harvard.edu/abs/2012MicEc..64..837K
-
-New citation to:
-Variability in responses to nutrients and trace elements, and transmission of stressor effects through an estuarine food web
-by: Liehr, Gladys A. et al. - Assessing the risk of a 50-year-old dump site in the Baltic Sea by combining chemical analysis, bioaccumulation, and ecotoxicity
-https://ui.adsabs.harvard.edu/abs/2013JSoSe..13.1270L
+Signatures of Adaptation to Obligate Biotrophy in the Hyaloperonospora arabidopsidis Genome
+by: Wang, Zhicheng et al. - The effectors of Phytophthora infestans impact host immunity upon regulation of antagonistic hormonal activities
+https://ui.adsabs.harvard.edu/abs/2023Plant.258...59W
 
 New citation to:
 Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Rolland, J. L. et al. - Population structure of the common sole (Solea solea) in the Northeastern Atlantic and the Mediterranean Sea: revisiting the divide with EPIC markers
-https://ui.adsabs.harvard.edu/abs/2007MarBi.151..327R
+by: Viñas, Jordi et al. - Facts and uncertainties about the genetic population structure of Atlantic bluefin tuna (Thunnus thynnus) in the Mediterranean. Implications for fishery management
+https://ui.adsabs.harvard.edu/abs/2011RFBF...21..527V
 
 New citation to:
 Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Carreras-Carbonell, Josep et al. - High self-recruitment levels in a Mediterranean littoral fish population revealed by microsatellite markers
-https://ui.adsabs.harvard.edu/abs/2007MarBi.151..719C
+by: Muhling, Barbara A. et al. - Reproduction and larval biology in tunas, and the importance of restricted area spawning grounds
+https://ui.adsabs.harvard.edu/abs/2017RFBF...27..697M
 
 New citation to:
 Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Heinisch, Gilad et al. - Spatial–temporal pattern of bluefin tuna (Thunnus thynnus L. 1758) gonad maturation across the Mediterranean Sea
-https://ui.adsabs.harvard.edu/abs/2008MarBi.154..623H
-
-New citation to:
-Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Brendtro, Kirsten S. et al. - Population genetic structure of escolar (Lepidocybium flavobrunneum)
-https://ui.adsabs.harvard.edu/abs/2008MarBi.155...11B
-
-New citation to:
-Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Boustany, Andre M. et al. - Mitochondrial DNA and electronic tracking reveal population structure of Atlantic bluefin tuna (Thunnus thynnus)
-https://ui.adsabs.harvard.edu/abs/2008MarBi.156...13B
-
-New citation to:
-Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Was, Anna et al. - Microsatellite analysis of plaice (Pleuronectes platessa L.) in the NE Atlantic: weak genetic structuring in a milieu of high gene flow
-https://ui.adsabs.harvard.edu/abs/2010MarBi.157..447W
-
-New citation to:
-Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Fruciano, Carmelo et al. - Atlantic-Mediterranean and within-Mediterranean molecular variation in Coris julis (L. 1758) (Teleostei, Labridae)
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158.1271F
-
-New citation to:
-Microsatellite and mitochondrial DNA analyses of Atlantic bluefin tuna (Thunnus thynnus thynnus) population structure in the Mediterranean Sea
-by: Davies, C. A. et al. - Microsatellite analysis of albacore tuna (Thunnus alalunga): population genetic structure in the North-East Atlantic Ocean and Mediterranean Sea
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158.2727D
+by: Hasegawa, Takamasa et al. - Distribution and genetic variability of young-of-the-year greater amberjack (Seriola dumerili) in the East China Sea
+https://ui.adsabs.harvard.edu/abs/2020EnvBF.103..833H
 
 New citation to:
 Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Garber, A. F. et al. - Population genetic and phylogeographic structure of wahoo, Acanthocybium solandri, from the western central Atlantic and central Pacific Oceans
-https://ui.adsabs.harvard.edu/abs/2005MarBi.147..205G
+by: Olsen, Jeffrey B. et al. - Moderately and Highly Polymorphic Microsatellites Provide Discordant Estimates of Population Divergence in Sockeye Salmon, Oncorhynchus nerka
+https://ui.adsabs.harvard.edu/abs/2004EnvBF..69..261O
 
 New citation to:
 Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Durand, J. -D. et al. - Nuclear and mitochondrial DNA markers indicate unidirectional gene flow of Indo-Pacific to Atlantic bigeye tuna (Thunnus obesus) populations, and their admixture off southern Africa
-https://ui.adsabs.harvard.edu/abs/2005MarBi.147..313D
+by: Xiao, Yongshuang et al. - Genetic diversity in the mtDNA control region and population structure in the small yellow croaker Larimichthys polyactis
+https://ui.adsabs.harvard.edu/abs/2009EnvBF..85..303X
 
 New citation to:
 Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Rolland, J. L. et al. - Population structure of the common sole (Solea solea) in the Northeastern Atlantic and the Mediterranean Sea: revisiting the divide with EPIC markers
-https://ui.adsabs.harvard.edu/abs/2007MarBi.151..327R
+by: Baibai, Tarik et al. - First global approach: morphological and biological variability in a genetically homogeneous population of the European pilchard, Sardina pilchardus (Walbaum, 1792) in the North Atlantic coast
+https://ui.adsabs.harvard.edu/abs/2012RFBF...22...63B
 
 New citation to:
 Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Burridge, Christopher P. et al. - Population Genetic Structuring in Acanthopagrus butcheri (Pisces: Sparidae): Does Low Gene Flow Among Estuaries Apply to Both Sexes?
-https://ui.adsabs.harvard.edu/abs/2007MarBt...9...33B
+by: Baldwin, Rebecca E. et al. - Integrating fish and parasite data as a holistic solution for identifying the elusive stock structure of Pacific sardines (Sardinops sagax)
+https://ui.adsabs.harvard.edu/abs/2012RFBF...22..137B
 
 New citation to:
 Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Thacker, Christine E. et al. - New expansions in old clades: population genetics and phylogeny of Gnatholepis species (Teleostei: Gobioidei) in the Pacific
-https://ui.adsabs.harvard.edu/abs/2008MarBi.153..375T
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Calderón, I. et al. - Two markers and one history: phylogeography of the edible common sea urchin Paracentrotus lividus in the Lusitanian region
-https://ui.adsabs.harvard.edu/abs/2008MarBi.154..137C
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Brendtro, Kirsten S. et al. - Population genetic structure of escolar (Lepidocybium flavobrunneum)
-https://ui.adsabs.harvard.edu/abs/2008MarBi.155...11B
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Kraus, Richard T. et al. - Horizontal movements of Atlantic blue marlin (Makaira nigricans) in the Gulf of Mexico
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158..699K
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Milana, Valentina et al. - Genetic structure in lagoons: the effects of habitat discontinuity and low dispersal ability on populations of Atherina boyeri
-https://ui.adsabs.harvard.edu/abs/2012MarBi.159..399M
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Cuveliers, E. L. et al. - Multi-marker estimate of genetic connectivity of sole (Solea solea) in the North-East Atlantic Ocean
-https://ui.adsabs.harvard.edu/abs/2012MarBi.159.1239C
-
-New citation to:
-Reconciling patterns of inter‑ocean molecular variance from four classes of molecular markers in blue marlin (Makaira nigricans)
-by: Divya, P. R. et al. - Deciphering demographic history and fine-scale population structure of cobia, Rachycentron canadum (Pisces: Rachycentridae) using microsatellite and mitochondrial markers
-https://ui.adsabs.harvard.edu/abs/2019MarBd..49..381D
-
-New citation to:
-Population structure of a deep-water squaloid shark, the Portuguese dogfish (Centroscymnus coelolepis)
-by: Viricel, Amélia et al. - Habitat availability and geographic isolation as potential drivers of population structure in an oceanic dolphin in the Southwest Indian Ocean
-https://ui.adsabs.harvard.edu/abs/2016MarBi.163..219V
-
-New citation to:
-Population structure of a deep-water squaloid shark, the Portuguese dogfish (Centroscymnus coelolepis)
-by: Ramírez-Amaro, Sergio et al. - Contrasting evolutionary patterns in populations of demersal sharks throughout the western Mediterranean
-https://ui.adsabs.harvard.edu/abs/2018MarBi.165....3R
+by: Semenova, A. V. et al. - Population structure and variability of Pacific herring (Clupea pallasii) in the White Sea, Barents and Kara Seas revealed by microsatellite DNA analyses
+https://ui.adsabs.harvard.edu/abs/2015PoBio..38..951S
 
 New citation to:
 World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Phillips, Nicole M. et al. - Population genetic structure and genetic diversity of three critically endangered Pristis sawfishes in Australian waters
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158..903P
+by: Mendonça, Fernando F. et al. - Phylogeography and genetic population structure of Caribbean sharpnose shark Rhizoprionodon porosus
+https://ui.adsabs.harvard.edu/abs/2011RFBF...21..799M
 
 New citation to:
 World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Ovenden, Jennifer R. et al. - Negligible evidence for regional genetic population structure for two shark species Rhizoprionodon acutus (Rüppell, 1837) and Sphyrna lewini (Griffith &amp; Smith, 1834) with contrasting biology
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158.1497O
+by: Domingues, Rodrigo R. et al. - Effects of the Pleistocene on the mitochondrial population genetic structure and demographic history of the silky shark (Carcharhinus falciformis) in the western Atlantic Ocean
+https://ui.adsabs.harvard.edu/abs/2018RFBF...28..213D
 
 New citation to:
 World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Pinhal, D. et al. - Cryptic hammerhead shark lineage occurrence in the western South Atlantic revealed by DNA analysis
-https://ui.adsabs.harvard.edu/abs/2012MarBi.159..829P
+by: Morales, Millke Jasmine Arminini et al. - Population genetics of the bigeye thresher shark Alopias superciliosus in the Atlantic and Indian Oceans: implications for conservation
+https://ui.adsabs.harvard.edu/abs/2018RFBF...28..941M
 
 New citation to:
 World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Clarke, Christopher R. et al. - Global mitochondrial DNA phylogeography and population structure of the silky shark, Carcharhinus falciformis
-https://ui.adsabs.harvard.edu/abs/2015MarBi.162..945C
+by: Schmidt-Roach, Alicia C. J. et al. - Evidence of historical isolation and genetic structuring among broadnose sevengill sharks (Notorynchus cepedianus) from the world's major oceanic regions
+https://ui.adsabs.harvard.edu/abs/2021RFBF...31..433S
 
 New citation to:
 World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Richards, Vincent P. et al. - Deep mitochondrial lineage divergence among populations of the southern stingray (Hypanus americanus (Hildebrand &amp; Schroeder, 1928)) throughout the Southeastern United States and Caribbean
-https://ui.adsabs.harvard.edu/abs/2019MarBd..49.1627R
-
-New citation to:
-World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Klein, Juliana D. et al. - Reproductive philopatry in a coastal shark drives age-related population structure
-https://ui.adsabs.harvard.edu/abs/2019MarBi.166...26K
-
-New citation to:
-World phylogeography and male-mediated gene flow in the sandbar shark, Carcharhinus plumbeus
-by: Dimens, Pavel V. et al. - A genomic assessment of movement and gene flow around the South Florida vicariance zone in the migratory coastal blacknose shark, Carcharhinus acronotus
-https://ui.adsabs.harvard.edu/abs/2019MarBi.166...86D
-
-New citation to:
-Genetically monomorphic invasive populations of the rapa whelk, Rapana venosa
-by: Albaina, A. et al. - Insights on the origin of invasive copepods colonizing Basque estuaries; a DNA barcoding approach
-https://ui.adsabs.harvard.edu/abs/2016MBdR....9...51A
-
-New citation to:
-Genetically monomorphic invasive populations of the rapa whelk, Rapana venosa
-by: Seixas, Victor Corrêa et al. - Comparative population genetics and demographic history of two polychaete species suggest that coastal lagoon populations evolve under alternate regimes of gene flow
-https://ui.adsabs.harvard.edu/abs/2018MarBi.165..179S
-
-New citation to:
-Genetically monomorphic invasive populations of the rapa whelk, Rapana venosa
-by: Cóndor-Luján, Báslavi et al. - Evolutionary history of the calcareous sponge Clathrina aurea: genetic connectivity in the Western Atlantic and intriguing occurrence in the Eastern Pacific
-https://ui.adsabs.harvard.edu/abs/2021MarBi.168..127C
-
-New citation to:
-Phylogeographic perspective on the distribution and dispersal of a marine pathogen, the oyster parasite Bonamia exitiosa
-by: Lane, Henry S. et al. - Comparative population genetic study of an important marine parasite from New Zealand flat oysters
-https://ui.adsabs.harvard.edu/abs/2018MarBi.165....9L
-
-New citation to:
-Genetic heterogeneity of Atlantic bluefin tuna caught in the eastern North Atlantic Ocean south of Iceland
-by: Davies, C. A. et al. - Microsatellite analysis of albacore tuna (Thunnus alalunga): population genetic structure in the North-East Atlantic Ocean and Mediterranean Sea
-https://ui.adsabs.harvard.edu/abs/2011MarBi.158.2727D
-
-New citation to:
-Comparative transcriptomics of spotted seatrout (Cynoscion nebulosus) populations to cold and heat stress
-by: Song, Jingwei et al. - Comparative Transcriptomics of the Northern Quahog Mercenaria mercenaria and Southern Quahog Mercenaria campechiensis in Response to Chronic Heat Stress
-https://ui.adsabs.harvard.edu/abs/2022MarBt..24..276S
-
-New citation to:
-Genome‑wide SNPs resolve spatiotemporal patterns of connectivity within striped marlin (Kajikia audax), a broadly distributed and highly migratory pelagic species
-by: Palmerín-Serrano, Paola N. et al. - Comparative phylogeography and demographic histories of five widely distributed tropical eastern Pacific fishes
-https://ui.adsabs.harvard.edu/abs/2023MarBi.170..158P
+by: Phillips, Nicole M. et al. - Reviewing the genetic evidence for sex-biased dispersal in elasmobranchs
+https://ui.adsabs.harvard.edu/abs/2021RFBF...31..821P
 
 New citation to:
 World without borders—genetic population structure of a highly migratory marine predator, the blue shark (Prionace glauca)
-by: Junge, Claudia et al. - Comparative population genomics confirms little population structure in two commercially targeted carcharhinid sharks
-https://ui.adsabs.harvard.edu/abs/2019MarBi.166...16J
+by: Domingues, Rodrigo R. et al. - Effects of the Pleistocene on the mitochondrial population genetic structure and demographic history of the silky shark (Carcharhinus falciformis) in the western Atlantic Ocean
+https://ui.adsabs.harvard.edu/abs/2018RFBF...28..213D
+
+New citation to:
+World without borders—genetic population structure of a highly migratory marine predator, the blue shark (Prionace glauca)
+by: Morales, Millke Jasmine Arminini et al. - Population genetics of the bigeye thresher shark Alopias superciliosus in the Atlantic and Indian Oceans: implications for conservation
+https://ui.adsabs.harvard.edu/abs/2018RFBF...28..941M
+
+New citation to:
+World without borders—genetic population structure of a highly migratory marine predator, the blue shark (Prionace glauca)
+by: Pinhal, Danillo et al. - Restricted connectivity and population genetic fragility in a globally endangered Hammerhead Shark
+https://ui.adsabs.harvard.edu/abs/2020RFBF...30..501P
+
+New citation to:
+World without borders—genetic population structure of a highly migratory marine predator, the blue shark (Prionace glauca)
+by: Schmidt-Roach, Alicia C. J. et al. - Evidence of historical isolation and genetic structuring among broadnose sevengill sharks (Notorynchus cepedianus) from the world's major oceanic regions
+https://ui.adsabs.harvard.edu/abs/2021RFBF...31..433S
+
+New citation to:
+Genetic heterogeneity of Atlantic bluefin tuna caught in the eastern North Atlantic Ocean south of Iceland
+by: Viñas, Jordi et al. - Facts and uncertainties about the genetic population structure of Atlantic bluefin tuna (Thunnus thynnus) in the Mediterranean. Implications for fishery management
+https://ui.adsabs.harvard.edu/abs/2011RFBF...21..527V
+
+New citation to:
+Genome‑wide SNPs resolve spatiotemporal patterns of connectivity within striped marlin (Kajikia audax), a broadly distributed and highly migratory pelagic species
+by: Wosnick, Natascha et al. - Current status and potential contributions of fisheries statistics from artisanal fisheries for managing juvenile istiophorid billfishes in Southern Brazil
+https://ui.adsabs.harvard.edu/abs/2021EnvBF.104..375W
 
 New citation to:
 Global population structure of the spiny dogfishSqualus acanthias, a temperate shark with an antitropical distribution
-by: Ramírez-Amaro, Sergio et al. - Contrasting evolutionary patterns in populations of demersal sharks throughout the western Mediterranean
-https://ui.adsabs.harvard.edu/abs/2018MarBi.165....3R
+by: Dell'Apa, Andrea et al. - Who let the dogfish out? A review of management and socio-economic aspects of spiny dogfish fisheries
+https://ui.adsabs.harvard.edu/abs/2015RFBF...25..273D
+
+New citation to:
+Reproductive variations in cownose rays (Rhinoptera bonasus) from Chesapeake Bay
+by: Omori, Kristen L. et al. - Summer and fall movement of cownose ray, Rhinoptera bonasus, along the east coast of United States observed with pop-up satellite tags
+https://ui.adsabs.harvard.edu/abs/2017EnvBF.100.1435O
+
+New citation to:
+Specific identification using COI sequence analysis of scombrid larvae collected off the Kona coast of Hawaii Island
+by: Kawakami, Tatsuya et al. - Morphology of pelagic fish eggs identified using mitochondrial DNA and their distribution in waters west of the Mariana Islands
+https://ui.adsabs.harvard.edu/abs/2010EnvBF..87..221K
+
+New citation to:
+The exocyst subunitExo70B1is involved in the immune response ofArabidopsis thalianato different pathogens and cell death
+by: Chakraborty, Joydeep et al. - Autoimmunity in plants
+https://ui.adsabs.harvard.edu/abs/2018Plant.248..751C
 

@@ -1,15 +1,10 @@
 New citation to:
 The EAGLE project: simulating the evolution and assembly of galaxies and their environments
-by: Pinna, Francesca et al. - Stellar populations and origin of thick disks in AURIGA simulations
-https://ui.adsabs.harvard.edu/abs/2023arXiv231113700P
+by: Bruel, Tristan et al. - Great Balls of FIRE III: Modeling Black Hole Mergers from Massive Star Clusters in Simulations of Galaxies
+https://ui.adsabs.harvard.edu/abs/2023arXiv231114855B
 
 New citation to:
-The EAGLE project: simulating the evolution and assembly of galaxies and their environments
-by: Velmani, Premvijay et al. - A self-similar model of galaxy formation and dark halo relaxation
-https://ui.adsabs.harvard.edu/abs/2023arXiv231113952V
-
-New citation to:
-Modelling the large-scale mass density field of the universe as a function of cosmology and baryonic physics
-by: Velmani, Premvijay et al. - A self-similar model of galaxy formation and dark halo relaxation
-https://ui.adsabs.harvard.edu/abs/2023arXiv231113952V
+The EAGLE simulations of galaxy formation: Public release of halo and galaxy catalogues
+by: Trayford, James W. et al. - Introducing STRAUSS: A flexible sonification Python package
+https://ui.adsabs.harvard.edu/abs/2023arXiv231116847T
 
