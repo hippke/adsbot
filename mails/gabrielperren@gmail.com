@@ -1,50 +1,35 @@
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Nie, Lin et al. - HybPSF: Hybrid Point-spread Function Reconstruction for the Observed JWST NIRCam Image
-https://ui.adsabs.harvard.edu/abs/2024AJ....167...58N
+astropy/photutils: 1.0.0
+by: Sardaneta, Minerva M. et al. - Extraplanar emission in isolated edge-on late-type galaxies. I. The Hα distribution versus to the old and young stellar discs.
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp...56S
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Taaki, Jamila S. et al. - Robust Detrending of Spatially Correlated Systematics in Kepler Light Curves Using Low-rank Methods
-https://ui.adsabs.harvard.edu/abs/2024AJ....167...60T
+astropy/photutils: 1.0.0
+by: Goldman, Steven R. et al. - A Multiwavelength Study of the Symbiotic Mira HM Sge with SOFIA and HST
+https://ui.adsabs.harvard.edu/abs/2024ApJ...961...14G
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Doi, Yasuo et al. - Tomographic Imaging of the Sagittarius Spiral Arm's Magnetic Field Structure
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...13D
+astropy/photutils: 1.5.0
+by: Asada, Yoshihisa et al. - Bursty star formation and galaxy-galaxy interactions in low-mass galaxies 1 Gyr after the Big Bang
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.11372
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: McQuinn, Kristen. B. W. et al. - The JWST Resolved Stellar Populations Early Release Science Program. IV. The Star Formation History of the Local Group Galaxy WLM
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...16M
+astropy/photutils: 1.5.0
+by: Venuti, L. et al. - Circumstellar disk accretion across the Lagoon Nebula: the influence of environment and stellar mass
+https://ui.adsabs.harvard.edu/abs/2024arXiv240106767V
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Halal, George et al. - Filamentary Dust Polarization and the Morphology of Neutral Hydrogen Structures
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...29H
+astropy/photutils: 1.5.0
+by: Moser, Beatrice et al. - Simulation-based inference of deep fields: galaxy population model and redshift distributions
+https://ui.adsabs.harvard.edu/abs/2024arXiv240106846M
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Bardati, Jaeden et al. - Signatures of Massive Black Hole Merger Host Galaxies from Cosmological Simulations. I. Unique Galaxy Morphologies in Imaging
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...34B
+astropy/photutils: 1.6.0
+by: Li, Junyao et al. - JWST Confirms the Nature of CID-42
+https://ui.adsabs.harvard.edu/abs/2024ApJ...961...19L
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Dong, Yuxin et al. - Mapping Obscured Star Formation in the Host Galaxy of FRB 20201124A
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...44D
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Xu, Yi et al. - EMPRESS. XII. Statistics on the Dynamics and Gas Mass Fraction of Extremely Metal-poor Galaxies
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...49X
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Sipple, Jackson et al. - The Star Formation Efficiency during Reionization as Inferred from the Hubble Frontier Fields
-https://ui.adsabs.harvard.edu/abs/2024ApJ...961...50S
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Johnson, E. et al. - Application of collisional analysis to the differential velocity of solar wind ions
-https://ui.adsabs.harvard.edu/abs/2024FrASS..1084913J
+astropy/photutils: v0.7.1
+by: Montes, Mireia et al. - An almost dark galaxy with the mass of the Small Magellanic Cloud
+https://ui.adsabs.harvard.edu/abs/2024A&A...681A..15M
 
