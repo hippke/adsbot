@@ -1,35 +1,30 @@
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Horta, Danny et al. - Orbital Torus Imaging: Acceleration, Density, and Dark Matter in the Galactic Disk Measured with Element Abundance Gradients
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962..165H
+astropy/photutils: 1.5.0
+by: Helton, Jakob M. et al. - The JWST Advanced Deep Extragalactic Survey: Discovery of an Extreme Galaxy Overdensity at z = 5.4 with JWST/NIRCam in GOODS-S
+https://ui.adsabs.harvard.edu/abs/2024ApJ...962..124H
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Wei, Lingfeng et al. - The 3D Kinematics of the Orion Nebula Cluster. II. Mass-dependent Kinematics of the Inner Cluster
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962..174W
+astropy/photutils: 1.5.0
+by: Zhuang, Ming-Yang et al. - Active Galactic Nuclei and Host Galaxies in COSMOS-Web. I. NIRCam Images, Point-spread-function Models and Initial Results on X-Ray-selected Broad-line AGNs at 0.35 ≲ z ≲ 3.5
+https://ui.adsabs.harvard.edu/abs/2024ApJ...962...93Z
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Burgasser, Adam J. et al. - UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962..177B
+astropy/photutils: 1.5.0
+by: Ward, Ethan et al. - Evolution of the Size–Mass Relation of Star-forming Galaxies Since z = 5.5 Revealed by CEERS
+https://ui.adsabs.harvard.edu/abs/2024ApJ...962..176W
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Reynolds, Stephen P. et al. - An X-Ray Synchrotron Shell and a Pulsar: The Peculiar Supernova Remnant G32.4+0.1
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962..179R
+astropy/photutils:
+by: Milewski, Dave G. et al. - NEOWISE Observations of Distant Active Long-period Comets C/2014 B1 (Schwartz), C/2017 K2 (Pan-STARRS), and C/2010 U3 (Boattini)
+https://ui.adsabs.harvard.edu/abs/2024AJ....167...99M
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Gao, Yulong et al. - Detection of Metal Enrichment by SN 2011jm in NGC 4809
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962L..25G
+astropy/photutils: 1.6.0
+by: Leist, M. T. et al. - Deconvolution of JWST/MIRI Images: Applications to an Active Galactic Nucleus Model and GATOS Observations of NGC 5728
+https://ui.adsabs.harvard.edu/abs/2024AJ....167...96L
 
 New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Ma, Jing-Ze et al. - Is Betelgeuse Really Rotating? Synthetic ALMA Observations of Large-scale Convection in 3D Simulations of Red Supergiants
-https://ui.adsabs.harvard.edu/abs/2024ApJ...962L..36M
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Sawala, Till et al. - Distinct distributions of elliptical and disk galaxies across the Local Supercluster as a ΛCDM prediction
-https://ui.adsabs.harvard.edu/abs/2024NatAs...8..247S
+astropy/photutils: 1.11.0
+by: Zhuang, Ming-Yang et al. - Characterization of JWST NIRCam PSFs and Implications for AGN+host Image Decomposition
+https://ui.adsabs.harvard.edu/abs/2024ApJ...962..139Z
 
