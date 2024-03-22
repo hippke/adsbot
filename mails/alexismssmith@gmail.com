@@ -1,5 +1,10 @@
 New citation to:
-Secondary radio eclipse of the transiting planet HD 189733 b: an upper limit at 307-347 MHz
-by: Narang, Mayank et al. - A uGMRT search for radio emission from planets around evolved stars
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.1161N
+Solving small-scale clustering problems in approximate light-cone mocks
+by: Gu, Yizhou et al. - CSST large-scale structure analysis pipeline: I. constructing reference mock galaxy redshift surveys
+https://ui.adsabs.harvard.edu/abs/2024arXiv240310754G
+
+New citation to:
+Correcting for fibre assignment incompleteness in the DESI Bright Galaxy Survey
+by: Gu, Yizhou et al. - CSST large-scale structure analysis pipeline: I. constructing reference mock galaxy redshift surveys
+https://ui.adsabs.harvard.edu/abs/2024arXiv240310754G
 
