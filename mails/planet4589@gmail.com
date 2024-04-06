@@ -1,5 +1,10 @@
 New citation to:
-Inter-ocean genetic divergence of istiophorid billfishes
-by: Viñas, Jordi et al. - Genetic differentiation between eastern and western Mediterranean swordfish revealed by phylogeographic analysis of the mitochondrial DNA control region
-https://ui.adsabs.harvard.edu/abs/2010ICJMS..67.1222V
+The Chandra Source Catalog
+by: Semena, A. et al. - SRG/ART-XC Galactic Bulge deep survey. I. Maximum likelihood source detection algorithm for X-ray surveys
+https://ui.adsabs.harvard.edu/abs/2024arXiv240402061S
+
+New citation to:
+The White Dwarf Opportunity: Robust Detections of Molecules in Earth-like Exoplanet Atmospheres with the James Webb Space Telescope
+by: Gilbert-Janizek, Samantha et al. - Retrieved Atmospheres and Inferred Surface Properties for Exoplanets Using Transmission and Reflected Light Spectroscopy
+https://ui.adsabs.harvard.edu/abs/2024arXiv240401423G
 
