@@ -1,10 +1,10 @@
 New citation to:
-The Chandra Source Catalog
-by: Semena, A. et al. - SRG/ART-XC Galactic Bulge deep survey. I. Maximum likelihood source detection algorithm for X-ray surveys
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402061S
+CIAO: Chandra's data analysis system
+by: Paul, Jeremiah D. et al. - Radio Scrutiny of the X-ray-Weak Tail of Low-Mass Active Galactic Nuclei: A Novel Signature of High-Eddington Accretion?
+https://ui.adsabs.harvard.edu/abs/2024arXiv240402423P
 
 New citation to:
-The White Dwarf Opportunity: Robust Detections of Molecules in Earth-like Exoplanet Atmospheres with the James Webb Space Telescope
-by: Gilbert-Janizek, Samantha et al. - Retrieved Atmospheres and Inferred Surface Properties for Exoplanets Using Transmission and Reflected Light Spectroscopy
-https://ui.adsabs.harvard.edu/abs/2024arXiv240401423G
+The Unusual Quasar PG 1407+265
+by: Paul, Jeremiah D. et al. - Radio Scrutiny of the X-ray-Weak Tail of Low-Mass Active Galactic Nuclei: A Novel Signature of High-Eddington Accretion?
+https://ui.adsabs.harvard.edu/abs/2024arXiv240402423P
 

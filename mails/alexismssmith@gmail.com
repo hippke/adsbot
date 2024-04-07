@@ -1,5 +1,10 @@
 New citation to:
-The THESAN project: Lyman-α emission and transmission during the Epoch of Reionization
-by: Pei, Wenxiang et al. - Simulating emission line galaxies for the next generation of large-scale structure surveys
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp..888P
+The physics of Lyman-α escape from disc-like galaxies
+by: Tacchella, Sandro et al. - Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars
+https://ui.adsabs.harvard.edu/abs/2024arXiv240402194T
+
+New citation to:
+The physics of Lyman α escape from high-redshift galaxies
+by: Li, Yijia et al. - No top-heavy stellar initial mass function needed: the ionizing radiation of GS9422 can be powered by a mixture of AGN and stars
+https://ui.adsabs.harvard.edu/abs/2024arXiv240402333L
 
