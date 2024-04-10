@@ -1,15 +1,25 @@
 New citation to:
-The completed SDSS-IV extended Baryon Oscillation Spectroscopic Survey: N-body mock challenge for the quasar sample
-by: Garcia-Quintero, C. et al. - HOD-Dependent Systematics in Emission Line Galaxies for the DESI 2024 BAO analysis
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403009G
+The THESAN project: Lyman-α emission and transmission during the Epoch of Reionization
+by: Pei, Wenxiang et al. - Simulating emission line galaxies for the next generation of large-scale structure surveys
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4958P
+
+New citation to:
+The physics of Lyman-α escape from disc-like galaxies
+by: Kerutt, J. et al. - Lyman continuum leaker candidates at z ∼ 3-4 in the HDUV based on a spectroscopic sample of MUSE LAEs
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..42K
+
+New citation to:
+The physics of Lyman-α escape from disc-like galaxies
+by: Li, Chengzhe et al. - Evolution and distribution of superbubbles in simulated Milky Way-like galaxies
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4073L
+
+New citation to:
+Solving small-scale clustering problems in approximate light-cone mocks
+by: Gu, Yizhou et al. - CSST large-scale structure analysis pipeline: I. Constructing reference mock galaxy redshift surveys
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4015G
 
 New citation to:
 Correcting for fibre assignment incompleteness in the DESI Bright Galaxy Survey
-by: Lasker, J. et al. - Production of Alternate Realizations of DESI Fiber Assignment for Unbiased Clustering Measurement in Data and Simulations
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403006L
-
-New citation to:
-Shallow transit follow‑up from Next‑Generation Transit Survey: Simultaneous observations of HD 106315 with 11 identical telescopes
-by: Battley, M. P. et al. - NGTS-30 b/TOI-4862 b: An 1 Gyr old 98-day transiting warm Jupiter
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402974B
+by: Gu, Yizhou et al. - CSST large-scale structure analysis pipeline: I. Constructing reference mock galaxy redshift surveys
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4015G
 

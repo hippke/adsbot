@@ -1,70 +1,75 @@
 New citation to:
 First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Moscibrodzka, Monika - What is the hard spectral state in X-ray binaries? Insights from GRRMHD accretion flows simulations and polarization of their X-ray emission
-https://ui.adsabs.harvard.edu/abs/2023arXiv230909087M
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
 
 New citation to:
-First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Mendoza, Sergio et al. - A comparison between the deflection angles of massive and massless particles in the Shchwarzschild space-time and their consequences on black hole shadows
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403174M
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
+The Event Horizon Telescope Image of the Quasar NRAO 530
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
 
 New citation to:
 First Sagittarius A* Event Horizon Telescope Results. V. Testing Astrophysical Models of the Galactic Center Black Hole
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. V. Testing Astrophysical Models of the Galactic Center Black Hole
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
+by: Gorman, Waverly et al. - Mind the gap: non-local cascades and preferential heating in high-β Alfvénic turbulence
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.531L...1G
 
 New citation to:
 First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
+
+New citation to:
+First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon
+by: Yang, Hai et al. - Modeling the inner part of the jet in M87: Confronting jet morphology with theory
+https://ui.adsabs.harvard.edu/abs/2024SciA...10N3544Y
 
 New citation to:
 First M87 Event Horizon Telescope Results. VII. Polarization of the Ring
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
+
+New citation to:
+Resolving the Inner Parsec of the Blazar J1924-2914 with the Event Horizon Telescope
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
 
 New citation to:
 First Sagittarius A* Event Horizon Telescope Results. III. Imaging of the Galactic Center Supermassive Black Hole
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
+by: Müller, Hendrik et al. - Identifying synergies between VLBI and STIX imaging
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..47M
 
 New citation to:
-First Sagittarius A* Event Horizon Telescope Results. IV. Variability, Morphology, and Black Hole Mass
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
+First Sagittarius A* Event Horizon Telescope Results. III. Imaging of the Galactic Center Supermassive Black Hole
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
+
+New citation to:
+Millimeter Light Curves of Sagittarius A* Observed during the 2017 Event Horizon Telescope Campaign
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
+
+New citation to:
+Broadband Multi-wavelength Properties of M87 during the 2017 Event Horizon Telescope Campaign
+by: Zhang, Mingyuan et al. - Impacts of non-thermal emission on the images of black hole shadow and extended jets in two-temperature GRMHD simulations
+https://ui.adsabs.harvard.edu/abs/2024arXiv240404033Z
+
+New citation to:
+First Sagittarius A* Event Horizon Telescope Results. II. EHT and Multiwavelength Observations, Data Processing, and Calibration
+by: Abe, S. et al. - Performance and first measurements of the MAGIC stellar intensity interferometer
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4387A
+
+New citation to:
+Event Horizon Telescope observations of the jet launching and collimation in Centaurus A
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
 
 New citation to:
 The Variability of the Black Hole Image in M87 at the Dynamical Timescale
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
+by: Mus, Alejandro et al. - Using multiobjective optimization to reconstruct interferometric data. II. Polarimetry and time dynamics
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..55M
 
 New citation to:
-Constraining particle acceleration in Sgr A<SUP>⋆</SUP> with simultaneous GRAVITY, Spitzer, NuSTAR, and Chandra observations
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
-
-New citation to:
-Rapid Variability of Sgr A* across the Electromagnetic Spectrum
-by: Jiang, Hong-Xuan et al. - Dynamics and Emission Properties of Flux Ropes from Two-Temperature GRMHD Simulations with Multiple Magnetic Loops
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403237J
-
-New citation to:
-Rapid Variability of Sgr A* across the Electromagnetic Spectrum
-by: Genzel, Reinhard et al. - Experimental studies of black holes: status and future prospects
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403522G
+General relativistic MHD simulations of non-thermal flaring in Sagittarius A*
+by: Yang, Hai et al. - Modeling the inner part of the jet in M87: Confronting jet morphology with theory
+https://ui.adsabs.harvard.edu/abs/2024SciA...10N3544Y
 

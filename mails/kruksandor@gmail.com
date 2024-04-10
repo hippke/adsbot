@@ -1,25 +1,35 @@
 New citation to:
-Euclid preparation. Measuring detailed galaxy morphologies for Euclid with Machine Learning
-by: Walmsley, Mike et al. - Scaling Laws for Galaxy Images
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402973W
+Galaxy Zoo: kinematics of strongly and weakly barred galaxies
+by: Zozulia, Viktor D. et al. - Positive Lynden-Bell derivative as a ticket to the bar trap?
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4405Z
 
 New citation to:
-Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies
-by: Walmsley, Mike et al. - Scaling Laws for Galaxy Images
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402973W
+Galaxy Zoo: kinematics of strongly and weakly barred galaxies
+by: Jiménez-Arranz, Ó. et al. - KRATOS: A large suite of N-body simulations to interpret the stellar kinematics of LMC-like discs
+https://ui.adsabs.harvard.edu/abs/2024arXiv240404061J
 
 New citation to:
-Galaxy Zoo DESI: Detailed morphology measurements for 8.7M galaxies in the DESI Legacy Imaging Surveys
-by: Walmsley, Mike et al. - Scaling Laws for Galaxy Images
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402973W
+Practical galaxy morphology tools from deep supervised representation learning
+by: Mohale, Koketso et al. - Enabling unsupervised discovery in astronomical images through self-supervised representations
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp..951M
 
 New citation to:
-The 4MOST Strong Lensing Spectroscopic Legacy Survey (4SLSLS)
-by: Ferrami, Giovanni et al. - A model for galaxy-galaxy strong lensing statistics in surveys
-https://ui.adsabs.harvard.edu/abs/2024arXiv240403143F
+The impact of satellite trails on Hubble Space Telescope observations
+by: Lawler, Samantha M. et al. - Satellite Visibility During the 2024 April Total Eclipse
+https://ui.adsabs.harvard.edu/abs/2024RNAAS...8...99L
 
 New citation to:
-Galaxy Zoo: quantitative visual morphological classifications for 48 000 galaxies from CANDELS
-by: Walmsley, Mike et al. - Scaling Laws for Galaxy Images
-https://ui.adsabs.harvard.edu/abs/2024arXiv240402973W
+Galaxy Zoo: 3D - crowdsourced bar, spiral, and foreground star masks for MaNGA target galaxies
+by: Jegatheesan, Keerthana et al. - BUDDI-MaNGA. III. The mass-assembly histories of bulges and discs of spiral galaxies
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A..32J
+
+New citation to:
+Galaxy Zoo and SPARCFIRE: constraints on spiral arm formation mechanisms from spiral arm number and pitch angles
+by: Fiteni, Karl et al. - The role of density breaks in driving spiral structure in disc galaxies
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4879F
+
+New citation to:
+Investigating Clumpy Galaxies in the Sloan Digital Sky Survey Stripe 82 Using the Galaxy Zoo
+by: Vallstrom, Daniel - Cooperative Evolutionary Pressure and Diminishing Returns Might Explain the Fermi Paradox: On What Super-AIs Are Like
+https://ui.adsabs.harvard.edu/abs/2024arXiv240403685V
 
