@@ -1,85 +1,60 @@
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Wojtkowska, Gabriela et al. - Verification of Hypervelocity Bulge Red Clump Stars
-https://ui.adsabs.harvard.edu/abs/2024AJ....167..225W
+by: Chawla, Chirag et al. - Detecting Detached Black Hole binaries through Photometric Variability
+https://ui.adsabs.harvard.edu/abs/2023arXiv231016891C
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Vanderwoude, S. et al. - Prototype Faraday Rotation Measure Catalogs from the Polarisation Sky Survey of the Universe's Magnetism (POSSUM) Pilot Observations
-https://ui.adsabs.harvard.edu/abs/2024AJ....167..226V
+by: Abbink, Daphne et al. - A model for the hydrogenation and charge states of fullerene C<SUB>60</SUB> . Implications for diffuse interstellar band research
+https://ui.adsabs.harvard.edu/abs/2024A&A...684A.165A
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Zong, Peng et al. - Asteroseismological Analysis of the Non-Blazhko RRab Star EPIC 248846335 in the LAMOST–Kepler/K2 Project
-https://ui.adsabs.harvard.edu/abs/2024AJ....167..227Z
+by: Zhang, Shiyu et al. - The Multilayer Nature of Molecular Gas toward the Cygnus Region
+https://ui.adsabs.harvard.edu/abs/2024AJ....167..220Z
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Fardeen, James et al. - Astrometric Microlensing by Primordial Black Holes with the Roman Space Telescope
-https://ui.adsabs.harvard.edu/abs/2024ApJ...965..138F
+by: Friesen, Rachel K. et al. - The Initial Conditions of Clustered Core Collapse: Multiwavelength Analysis of Oph A SM1N and N6 at 100 au Resolution
+https://ui.adsabs.harvard.edu/abs/2024ApJ...965..165F
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Yoo, Jaewon et al. - Spatial Distribution of Intracluster Light versus Dark Matter in Horizon Run 5
-https://ui.adsabs.harvard.edu/abs/2024ApJ...965..145Y
+by: Grimozzi, Salvador E. et al. - Differences in the properties of disrupted and surviving satellites of Milky-Way-mass galaxies in relation to their host accretion histories.
+https://ui.adsabs.harvard.edu/abs/2024MNRAS.530...95G
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Adams, Nathan J. et al. - EPOCHS. II. The Ultraviolet Luminosity Function from 7.5 &lt; z &lt; 13.5 Using 180 arcmin<SUP>2</SUP> of Deep, Blank Fields from the PEARLS Survey and Public JWST Data
-https://ui.adsabs.harvard.edu/abs/2024ApJ...965..169A
+by: Barth, Nicholas et al. - Stellar Abundances at the Center of Early Type Galaxies with Fine Structure
+https://ui.adsabs.harvard.edu/abs/2024arXiv240413459B
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Corrales, Lía et al. - High-resolution X-Ray Spectroscopy of Interstellar Iron toward Cygnus X-1 and GX 339-4
-https://ui.adsabs.harvard.edu/abs/2024ApJ...965..172C
+by: Fielder, Samuel et al. - An ALMA search for substructure and fragmentation in starless cores in Orion B North
+https://ui.adsabs.harvard.edu/abs/2024arXiv240413520F
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Jackson, James M. et al. - Absorption and Self-absorption of [C II] and [O I] Far Infrared Lines toward a Bright Bubble in the Nessie Infrared Dark Cloud
-https://ui.adsabs.harvard.edu/abs/2024ApJ...965..187J
+by: Yamaguchi, Masayuki et al. - ALMA 2D Super-resolution Imaging of Taurus-Auriga Protoplanetary Disks: Probing Statistical Properties of Disk Substructures
+https://ui.adsabs.harvard.edu/abs/2024arXiv240413570Y
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Schmidt, Tobias M. et al. - Characterization of the ESPRESSO line-spread function and improvement of the wavelength calibration accuracy
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.1252S
+by: Barragán, Oscar et al. - TOI-837b is a Young Saturn-sized Exoplanet with a Massive 70 $M_{\oplus}$ Core
+https://ui.adsabs.harvard.edu/abs/2024arXiv240413750B
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Mohale, Koketso et al. - Enabling unsupervised discovery in astronomical images through self-supervised representations
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.1274M
+by: Castro-Ginard, Alfred et al. - Gaia DR3 detectability of unresolved binary systems
+https://ui.adsabs.harvard.edu/abs/2024arXiv240414127C
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Fehér, Orsolya et al. - N<SUB>2</SUB>H<SUP>+</SUP>(1-0) as a tracer of dense gas in and between spiral arms
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.1311F
+by: Kar, Subhajit et al. - Investigation of [KSF2015] 1381-19L, a WC9-type star in the high extinction Galactic region
+https://ui.adsabs.harvard.edu/abs/2024arXiv240414260K
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Sandford, Nathan R. et al. - Strong Outflows and Inefficient Star Formation in the Reionization-era Ultra-faint Dwarf Galaxy Eridanus II
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1022S
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Crnogorčević, Milena et al. - Strong constraints on dark matter annihilation in Ursa Major III/UNIONS 1
-https://ui.adsabs.harvard.edu/abs/2024PhRvD.109h3018C
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Khalid, Aman et al. - Characterising Tidal Features Around Galaxies in Cosmological Simulations
-https://ui.adsabs.harvard.edu/abs/2024arXiv240412436K
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Bischetti, Manuela et al. - Multi-phase black-hole feedback and a bright [CII] halo in a Lo-BAL quasar at $z\sim6.6$
-https://ui.adsabs.harvard.edu/abs/2024arXiv240412443B
-
-New citation to:
-pyUPMASK: an improved unsupervised clustering algorithm
-by: Paulson, Sonu Tabitha et al. - Unveiling the Cosmic Cradle: clustering and massive star formation in the enigmatic Galactic bubble N59
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.1516P
-
-New citation to:
-pyUPMASK: an improved unsupervised clustering algorithm
-by: Alvarez-Baena, N. et al. - The longevity of the oldest open clusters: Structural parameters of NGC 188, NGC 2420, NGC 2425, NGC 2682, NGC 6791, NGC 6819
-https://ui.adsabs.harvard.edu/abs/2024arXiv240412523A
+by: Mondal, Surajit et al. - A Joint Microwave and Hard X-Ray Study Towards Understanding the Transport of Accelerated Electrons during an Eruptive Solar Flare
+https://ui.adsabs.harvard.edu/abs/2024arXiv240414268M
 

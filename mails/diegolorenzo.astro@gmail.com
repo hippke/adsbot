@@ -1,5 +1,5 @@
 New citation to:
-The Eleventh and Twelfth Data Releases of the Sloan Digital Sky Survey: Final Data from SDSS-III
-by: Greig, Bradley et al. - IGM damping wing constraints on the tail end of reionisation from the enlarged XQR-30 sample
-https://ui.adsabs.harvard.edu/abs/2024arXiv240412585G
+The age-mass-metallicity-activity relation for solar-type stars: comparisons with asteroseismology and the NGC 188 open cluster
+by: Cennet Dursun, Deniz et al. - SED Analysis of the Old Open Cluster NGC 188
+https://ui.adsabs.harvard.edu/abs/2024arXiv240413115C
 
