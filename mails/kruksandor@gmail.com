@@ -1,25 +1,15 @@
 New citation to:
-Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies
-by: Oliver, William H. et al. - The hierarchical structure of galactic haloes: differentiating clusters from stochastic clumping with ASTROLINK
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.2637O
+AstroLLaMA: Towards Specialized Foundation Models in Astronomy
+by: Diao, Shizhe et al. - LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models
+https://ui.adsabs.harvard.edu/abs/2023arXiv230612420D
 
 New citation to:
-Galaxy Zoo: probabilistic morphology through Bayesian CNNs and active learning
-by: Haack, R. F. et al. - The S-PLUS Fornax Project (S+FP): SEXTRACTOR detection and measurement of nearby galaxies in large photometric surveys
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3195H
+Gems of the Galaxy Zoos-A Wide-ranging Hubble Space Telescope Gap-filler Program
+by: Kouroumpatzakis, K. et al. - Blueberry galaxies up to 200 Mpc and their optical/infrared properties
+https://ui.adsabs.harvard.edu/abs/2024arXiv240503391K
 
 New citation to:
-Galaxy Zoo: 3D - crowdsourced bar, spiral, and foreground star masks for MaNGA target galaxies
-by: Gatto, Lara et al. - The extent and power of 'maintenance mode' feedback in MaNGA AGN
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3059G
-
-New citation to:
-Galaxy Zoo: quantitative visual morphological classifications for 48 000 galaxies from CANDELS
-by: Haack, R. F. et al. - The S-PLUS Fornax Project (S+FP): SEXTRACTOR detection and measurement of nearby galaxies in large photometric surveys
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3195H
-
-New citation to:
-The H I morphology and stellar properties of strongly barred galaxies: support for bar quenching in massive spirals
-by: Lomaeva, Maria et al. - The recent star formation histories of nearby galaxies on resolved scales
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1178L
+SDSS-IV MaNGA: characterizing non-axisymmetric motions in galaxy velocity fields using the Radon transform
+by: Bershady, Matthew A. et al. - Asymmetric drift in MaNGA: Mass and radially-dependent stratification rates in galaxy disks
+https://ui.adsabs.harvard.edu/abs/2024arXiv240502460B
 
