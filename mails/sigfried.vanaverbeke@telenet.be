@@ -1,5 +1,5 @@
 New citation to:
-Do fragmentation and accretion affect the stellar initial mass function?
-by: Kravtsov, Andrey et al. - Stochastic star formation and the abundance of $z&gt;10$ UV-bright galaxies
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504578K
+Optical Dimming of RW Aur Associated with an Iron-rich Corona and Exceptionally High Absorbing Column Density
+by: Lux, Oliver et al. - The deep eclipses of RW Aur revisited by long-term photometric and spectroscopic monitoring
+https://ui.adsabs.harvard.edu/abs/2024AN....34530118L
 

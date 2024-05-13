@@ -1,35 +1,5 @@
 New citation to:
-Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-Galaxy Zoo DESI: Detailed morphology measurements for 8.7M galaxies in the DESI Legacy Imaging Surveys
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-Galaxy Zoo: kinematics of strongly and weakly barred galaxies
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-Galaxy Zoo: secular evolution of barred galaxies from structural decomposition of multiband images
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-Galaxy zoo: stronger bars facilitate quenching in star-forming galaxies
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-The H I morphology and stellar properties of strongly barred galaxies: support for bar quenching in massive spirals
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
-
-New citation to:
-Galaxy Zoo: finding offset discs and bars in SDSS galaxies★
-by: Géron, Tobias et al. - The effects of bar strength and kinematics on galaxy evolution: slow strong bars affect their hosts the most
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505960G
+The Fifteenth Data Release of the Sloan Digital Sky Surveys: First Release of MaNGA-derived Quantities, Data Visualization Tools, and Stellar Library
+by: Hatano, Shun et al. - EMPRESS. XIV. Strong High-ionization Lines of Young Galaxies at z = 0–8: Ionizing Spectra Consistent with the Intermediate-mass Black Holes with M <SUB>BH</SUB> ∼ 10<SUP>3</SUP>–10<SUP>6</SUP> M <SUB>⊙</SUB>
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..170H
 

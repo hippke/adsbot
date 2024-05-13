@@ -1,15 +1,10 @@
 New citation to:
-Testing AGN outflow and accretion models with C IV and He II emission line demographics in z ≈ 2 quasars
-by: Torres-Papaqui, Juan Pablo et al. - The role of AGN winds in galaxy formation: connecting AGN outflows at low redshifts to the formation/evolution of their host galaxies
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505184T
+BASS. XXII. The BASS DR2 AGN Catalog and Data
+by: Papadakis, I. E. et al. - The X-ray variability of active galactic nuclei: Power spectrum and variance analysis of the Swift/BAT light curves
+https://ui.adsabs.harvard.edu/abs/2024A&A...685A..50P
 
 New citation to:
-High-ionization emission-line ratios from quasar broad-line regions: metallicity or density?
-by: Ji, Xihan et al. - JADES - The small blue bump in GN-z11: insights into the nuclear region of a galaxy at z=10.6
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505772J
-
-New citation to:
-Exploring the link between C IV outflow kinematics and sublimation-temperature dust in quasars
-by: Hare, Jeremy et al. - Probing the spectrum of the magnetar 4U 0142+61 with JWST
-https://ui.adsabs.harvard.edu/abs/2024arXiv240503947H
+BASS. XXII. The BASS DR2 AGN Catalog and Data
+by: Guolo, Muryel et al. - A Systematic Analysis of the X-Ray Emission in Optically Selected Tidal Disruption Events: Observational Evidence for the Unification of the Optically and X-Ray-selected Populations
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..160G
 

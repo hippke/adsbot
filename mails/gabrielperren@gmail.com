@@ -1,45 +1,45 @@
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Gazagnes, Simon et al. - Comparing the VANDELS sample to a zoom-in Radiative Hydrodynamical Simulation: using the Si II and C II line spectra as tracers of galaxy evolution and Lyman Continuum leakage
-https://ui.adsabs.harvard.edu/abs/2024arXiv240503759G
+by: Boulet, Thibault - A catalogue of asteroseismically calibrated ages for APOGEE DR17. The predictions of a CatBoost machine learning model based on the [Mg/Ce] chemical clock and other stellar parameters
+https://ui.adsabs.harvard.edu/abs/2024A&A...685A..66B
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Ding, Hao et al. - VLBA Astrometry of the Galactic Double Neutron Stars PSR J0509+3801 and PSR J1930-1852: A Preliminary Transverse Velocity Distribution of Double Neutron Stars and Its Implications
-https://ui.adsabs.harvard.edu/abs/2024arXiv240503914D
+by: Silverstein, Michele L. et al. - Validation of a Third Planet in the LHS 1678 System
+https://ui.adsabs.harvard.edu/abs/2024AJ....167..255S
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Song, Fei-Fan et al. - On the Detection and Characterization of Quasiperiodic Oscillations in Astronomical Time Series: Gamma-Ray Burst X-Ray Light Curves as a Test Case
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504033S
+by: Buiten, Victorine A. et al. - GOALS-JWST: Mid-infrared Molecular Gas Excitation Probes the Local Conditions of Nuclear Star Clusters and the Active Galactic Nucleus in the LIRG VV 114
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..166B
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Biswas, Pralay et al. - Structure and Kinematics of Star-forming Elliptical Galaxies in SDSS-MaNGA
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504166B
+by: Gaidos, Eric et al. - The Dynamic, Chimeric Inner Disk of PDS 70
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..167G
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Sullivan, Kendall et al. - Starspots and Undetected Binary Stars Have Distinct Signatures in Young Stellar Associations
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504604S
+by: Pang, Xiaoying et al. - The Present-day Mass Function of Star Clusters in the Solar Neighborhood
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..169P
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Landeros, Jaime A. et al. - Magnetic Field-Constrained Ensemble Image Segmentation of Coronal Holes in Chromospheric Observations
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504731L
+by: Polzin, Ava et al. - Modeling Molecular Hydrogen in Low-metallicity Galaxies
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..172P
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Patra, Sudeshna et al. - Does Metallicity affect Protoplanetary Disk Fraction? Answers from the Outer Milky Way
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504849P
+by: Newman, Max J. B. et al. - An Empirical Calibration of the Tip of the Red Giant Branch Distance Method in the Near Infrared. I. Hubble Space Telescope WFC3/IR F110W and F160W Filters
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..175N
+
+New citation to:
+The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
+by: Tu, Tian-yu et al. - Shock and Cosmic-Ray Chemistry Associated with the Supernova Remnant W28
+https://ui.adsabs.harvard.edu/abs/2024ApJ...966..178T
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
 by: Groeneveld, C. et al. - Characterization of the decametre sky at subarcminute resolution
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505311G
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Ngeow, Chow-Choong et al. - Discovery of RR Lyrae in the Ultra-Faint Dwarf Galaxy Virgo III
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505482N
+https://ui.adsabs.harvard.edu/abs/2024NatAs.tmp...84G
 

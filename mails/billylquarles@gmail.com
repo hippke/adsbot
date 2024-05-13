@@ -1,10 +1,10 @@
 New citation to:
-An exomoon survey of 70 cool giant exoplanets and the new candidate Kepler-1708 b-i
-by: van der Tak, Floris - Likelihood and appearance of life beyond the Earth: An astronomical perspective
-https://ui.adsabs.harvard.edu/abs/2024arXiv240505115V
+Kepler Eclipsing Binary Stars. VII. The Catalog of Eclipsing Binaries Found in the Entire Kepler Data Set
+by: Kaya, N. Ö. et al. - Some findings from the longitudinal migration of starspots
+https://ui.adsabs.harvard.edu/abs/2024PASA...41...31K
 
 New citation to:
-Habitable Planet Formation around Low-mass Stars: Rapid Accretion, Rapid Debris Removal, and the Essential Contribution of External Giants
-by: Lichtenberg, Tim et al. - Super-Earths and Earth-like Exoplanets
-https://ui.adsabs.harvard.edu/abs/2024arXiv240504057L
+Kepler Eclipsing Binary Stars. VII. The Catalog of Eclipsing Binaries Found in the Entire Kepler Data Set
+by: Miller, N et al. - The verification of periodicity with the use of recurrent neural networks
+https://ui.adsabs.harvard.edu/abs/2024RASTI...3..224M
 
