@@ -1,10 +1,10 @@
 New citation to:
 Sensitivity of future liquid argon dark matter search experiments to core-collapse supernova neutrinos
-by: DUNE Collaboration et al. - DUNE Phase II: Scientific Opportunities, Detector Concepts, Technological Solutions
-https://ui.adsabs.harvard.edu/abs/2024arXiv240812725D
+by: Bozorgnia, Nassim et al. - Spin-dependent dark matter interactions at loop-level in Ar and Xe
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813664B
 
 New citation to:
-The chemical footprint of AGN feedback in the outflowing circumnuclear disk of NGC 1068
-by: Takekawa, Shunya et al. - Parabolic-like Trend in SiO Ratios throughout the Central Molecular Zone: Possible Signature of a Past Nuclear Activity in the Galactic Center
-https://ui.adsabs.harvard.edu/abs/2024ApJ...972L...3T
+Carbon isotopes and lipid biomarker investigation of sources, transport and degradation of terrestrial organic matter in the Buor-Khaya Bay, SE Laptev Sea
+by: Semiletov, Igor et al. - Acidification of East Siberian Arctic Shelf waters through addition of freshwater and terrestrial carbon
+https://ui.adsabs.harvard.edu/abs/2016NatGe...9..361S
 

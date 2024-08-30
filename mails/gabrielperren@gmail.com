@@ -1,100 +1,65 @@
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Masson, A. et al. - Probing atmospheric escape through metastable He I triplet lines in 15 exoplanets observed with SPIRou
-https://ui.adsabs.harvard.edu/abs/2024A&A...688A.179M
+by: Ryan, Daniel F. et al. - Triangulation of Hard X-Ray Sources in an X-Class Solar Flare with ASO-S/HXI and Solar Orbiter/STIX
+https://ui.adsabs.harvard.edu/abs/2024SoPh..299..114R
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Kiman, Rocio et al. - Accurate and Model-independent Radius Determination of Single FGK and M Dwarfs Using Gaia DR3 Data
-https://ui.adsabs.harvard.edu/abs/2024AJ....168..126K
+by: Yanagisawa, Hiroto et al. - Strong He I Emission Lines in High N/O Galaxies at $z \sim 6$ Identified in JWST Spectra: High He/H Abundance Ratios or High Electron Densities?
+https://ui.adsabs.harvard.edu/abs/2024arXiv240501823Y
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Waters, Thomas K. et al. - A Stellar Dynamical Mass Measurement of the Supermassive Black Hole in NGC 3258
-https://ui.adsabs.harvard.edu/abs/2024ApJ...971..149W
+by: Xue, Qiao et al. - JWST Thermal Emission of the Terrestrial Exoplanet GJ 1132b
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813340X
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Forrest, Ben et al. - Environmental Effects on the Stellar Mass Function in a z ∼ 3.3 Overdensity of Galaxies in the COSMOS Field
-https://ui.adsabs.harvard.edu/abs/2024ApJ...971..169F
+by: Mondal, Surajit et al. - New Insights into Type-I Solar Noise Storms from High Angular Resolution Spectroscopic Imaging with the upgraded Giant Metrewave Radio Telescope
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813465M
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: He, Hao et al. - Unraveling the Mystery of the Low CO-to-H<SUB>2</SUB> Conversion Factor in Starburst Galaxies: RADEX Modeling of the Antennae
-https://ui.adsabs.harvard.edu/abs/2024ApJ...971..176H
+by: Avdan, Hasan et al. - Exploring the nature of an ultraluminous X-ray source in NGC 628
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813503A
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Bendt, Alina et al. - The Relative Prevalence of Wave Packets and Coherent Structures in the Inertial and Kinetic Ranges of Turbulence as Seen by Solar Orbiter
-https://ui.adsabs.harvard.edu/abs/2024ApJ...971..179B
+by: Adamcová, B. et al. - X-ray observations of Blueberry galaxies
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813572A
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Joyce, Meridith et al. - Stellar Evolution in Real Time. II. R Hydrae and an Open-Source Grid of &gt;3000 Seismic TP-AGB Models Computed with MESA
-https://ui.adsabs.harvard.edu/abs/2024ApJ...971..186J
+by: Yao, Yao et al. - Bipolar blobs as evidence of hidden AGN activities in the low-mass galaxies
+https://ui.adsabs.harvard.edu/abs/2024arXiv240813841Y
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Green, Joel D. et al. - Why Are (Almost) All the Protostellar Outflows Aligned in Serpens Main?
-https://ui.adsabs.harvard.edu/abs/2024ApJ...972....5G
+by: Shen, Yu-Fu et al. - Evidence for the Hierarchical Formation of the Galactic Disk in the Solar Neighborhood
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814044S
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Trudeau, A. et al. - The Massive and Distant Clusters of WISE Survey 2: A Stacking Analysis Investigating the Evolution of Star Formation Rates and Stellar Masses in Groups and Clusters
-https://ui.adsabs.harvard.edu/abs/2024ApJ...972...27T
+by: Bogensberger, David et al. - Superluminal proper motion in the X-ray jet of Centaurus A
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814078B
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Takekawa, Shunya et al. - Parabolic-like Trend in SiO Ratios throughout the Central Molecular Zone: Possible Signature of a Past Nuclear Activity in the Galactic Center
-https://ui.adsabs.harvard.edu/abs/2024ApJ...972L...3T
+by: Xie, Yi-Heng et al. - Morphology of molecular clouds at kiloparsec scale in the Milky Way: Shear-induced alignment and vertical confinement
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814095X
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Zhang, S. et al. - Filamentary mass accretion towards the high-mass protobinary system G11.92-0.61 MM2
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1075Z
+by: Hayes, Laura A. et al. - High-Energy Insights from an Escaping Coronal Mass Ejection with Solar Orbiter/STIX Observations
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814194H
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Derkenne, C. et al. - The MAGPI survey: evidence against the bulge-halo conspiracy
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1300D
+by: Shishido, Mona et al. - Suzaku Observations of the Cold Front in A3667: a Non-Equilibrium Ionization State of the Intracluster Medium
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814204S
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Orio, M. et al. - V407 Lup, an intermediate polar nova
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.533.1541O
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Killestein, T. L. et al. - Kilonova Seekers: The GOTO project for real-time citizen science in time-domain astrophysics
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1933K
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Clements, D. L. et al. - The Nature of 500 micron Risers III: A Small Complete Sample
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1962C
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Dalmasso, Nicolò et al. - Galaxy clustering at cosmic dawn from JWST/NIRCam observations to redshift z 11
-https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.1966D
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Langeveld, Adam B. et al. - The JWST/NIRISS Deep Spectroscopic Survey for Young Brown Dwarfs and Free-Floating Planets
-https://ui.adsabs.harvard.edu/abs/2024arXiv240812639L
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Brauner, Maren et al. - Unveiling the chemical fingerprint of phosphorus-rich stars II. Heavy-element abundances from UVES/VLT spectra
-https://ui.adsabs.harvard.edu/abs/2024arXiv240812938B
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Nandakumar, G. et al. - M giants with IGRINS IV. Identification and characterization of a near-IR line of the s-element Barium
-https://ui.adsabs.harvard.edu/abs/2024arXiv240812971N
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Sand, Ketan R. et al. - Morphology of 137 Fast Radio Bursts down to Microseconds Timescales from The First CHIME/FRB Baseband Catalog
-https://ui.adsabs.harvard.edu/abs/2024arXiv240813215S
+by: Forró, Adrienn et al. - Validation of the RR Lyrae period determination in the Pan-STARRS PS1 3$\pi$ survey with K2
+https://ui.adsabs.harvard.edu/abs/2024arXiv240814260F
 

@@ -1,5 +1,5 @@
 New citation to:
-Habitable Planet Formation around Low-mass Stars: Rapid Accretion, Rapid Debris Removal, and the Essential Contribution of External Giants
-by: Moutou, C. et al. - Characterising planetary systems with SPIRou: Temperate sub-Neptune exoplanet orbiting the nearby fully convective star GJ 1289 and a candidate around GJ 3378
-https://ui.adsabs.harvard.edu/abs/2024A&A...688A.196M
+An Earth-Sized Planet in the Habitable Zone of a Cool Star
+by: Mikhail, Sami et al. - Nitrogen speciation in upper mantle fluids and the origin of Earth's nitrogen-rich atmosphere
+https://ui.adsabs.harvard.edu/abs/2014NatGe...7..816M
 
