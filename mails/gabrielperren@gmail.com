@@ -1,35 +1,30 @@
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Kim, Yongjung et al. - Exploring Unobscured QSOs in the Southern Hemisphere with KS4
-https://ui.adsabs.harvard.edu/abs/2024arXiv241017187K
+by: Jennings, Ross J. et al. - Characterizing the effects of pulse shape changes on pulsar timing precision
+https://ui.adsabs.harvard.edu/abs/2024arXiv241100236J
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Law, Charles J. et al. - A Wideband Chemical Survey of Massive Star-forming Regions at Subarcsecond Resolution with the Submillimeter Array
-https://ui.adsabs.harvard.edu/abs/2024arXiv241100941L
+by: Shaw, A. W. et al. - Calibrating the clock of JWST
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102238S
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Wang, Ran et al. - Detection of two TeV gamma-ray outbursts from NGC 1275 by LHAASO
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101215W
+by: Roy, Soumendra Kishore et al. - Cosmology with Binary Neutron Stars: Does the Redshift Evolution of the Mass Function Matter?
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102494R
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Burgasser, Adam J. et al. - New Cold Subdwarf Discoveries from Backyard Worlds and a Metallicity Classification System for T Subdwarfs
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101378B
+by: Lu, Yuxi et al. - The Dog that Didn't Bark: Non-Variable Field Stars in the RR Lyrae Instability Strip
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102514L
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Bordoloi, Swagat et al. - A sky survey of ultraviolet sources observed through AstroSat's UVIT: A point source catalog
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101809B
+by: Zabel, Nikki et al. - A resolved, multi-wavelength study of gas-rich dwarf galaxies in the Fornax cluster using MUSE, MeerKAT, and ALMA
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102931Z
 
 New citation to:
 The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Gupta, Akash et al. - Obscured star clusters in the Inner Milky Way. How many massive young clusters are still awaiting detection?
-https://ui.adsabs.harvard.edu/abs/2024arXiv241102022G
-
-New citation to:
-The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
-by: Klawin, Moritz et al. - Searching for orbital period modulation in X-ray observations of the symbiotic X-ray binary GX 1+4
-https://ui.adsabs.harvard.edu/abs/2024arXiv241102092K
+by: Jahnke, Knud - The Soltan argument at $z=6$: UV-luminous quasars contribute less than 10% to early black hole mass growth
+https://ui.adsabs.harvard.edu/abs/2024arXiv241103184J
 

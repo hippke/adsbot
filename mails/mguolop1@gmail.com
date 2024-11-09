@@ -1,10 +1,15 @@
 New citation to:
-A Systematic Analysis of the X-Ray Emission in Optically Selected Tidal Disruption Events: Observational Evidence for the Unification of the Optically and X-Ray-selected Populations
-by: Mummery, Andrew et al. - The optical, UV-plateau and X-ray tidal disruption event luminosity functions reproduced from first principles
-https://ui.adsabs.harvard.edu/abs/2024arXiv241017087M
+SN 2023ixf in Messier 101: Photo-ionization of Dense, Close-in Circumstellar Material in a Nearby Type II Supernova
+by: Ravi, Aravind P. et al. - Luminous Type II Short-Plateau SN 2023ufx: Asymmetric Explosion of a Partially-Stripped Massive Progenitor
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102493R
 
 New citation to:
-Delayed X-Ray Brightening Accompanied by Variable Ionized Absorption Following a Tidal Disruption Event
-by: Mummery, Andrew et al. - The optical, UV-plateau and X-ray tidal disruption event luminosity functions reproduced from first principles
-https://ui.adsabs.harvard.edu/abs/2024arXiv241017087M
+SN 2023ixf in Messier 101: Photo-ionization of Dense, Close-in Circumstellar Material in a Nearby Type II Supernova
+by: Nayana, A. J. et al. - Dinosaur in a Haystack : X-ray View of the Entrails of SN 2023ixf and the Radio Afterglow of Its Interaction with the Medium Spawned by the Progenitor Star (Paper 1)
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102647N
+
+New citation to:
+A Luminous Red Supergiant and Dusty Long-period Variable Progenitor for SN 2023ixf
+by: Nayana, A. J. et al. - Dinosaur in a Haystack : X-ray View of the Entrails of SN 2023ixf and the Radio Afterglow of Its Interaction with the Medium Spawned by the Progenitor Star (Paper 1)
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102647N
 

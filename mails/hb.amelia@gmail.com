@@ -1,40 +1,25 @@
 New citation to:
 First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Zahid, Muhammad et al. - Shadow and quasinormal modes of rotating charged black holes in Kalb–Ramond gravity and implications from EHT data
-https://ui.adsabs.harvard.edu/abs/2024ChJPh..91...45Z
+by: Jia, He et al. - Photon ring interferometric signatures beyond the universal regime
+https://ui.adsabs.harvard.edu/abs/2024PhRvD.110h3044J
 
 New citation to:
 First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Farah, Joseph R. et al. - Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n=1$ photon ring
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101060F
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way
-by: Al-Badawi, Ahmad et al. - Schwarzschild Black Hole in Galaxies Surrounded by a Dark Matter Halo
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101145A
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. V. Testing Astrophysical Models of the Galactic Center Black Hole
-by: Farah, Joseph R. et al. - Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n=1$ photon ring
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101060F
+by: Hsu, Yi-Hsiung et al. - Buchdahl bound, photon ring, ISCO and radial acceleration in Einstein-æther theory
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102550H
 
 New citation to:
 First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon
-by: Khatri, Mohan et al. - Casimir wormhole solutions in f(R,Lm) gravity
-https://ui.adsabs.harvard.edu/abs/2024ChJPh..89.1222K
+by: Nokhrina, E. E. - On the possible core shift break in relativistic jets
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102925N
 
 New citation to:
-First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon
-by: Afshordi, Niayesh et al. - Black Holes Inside and Out 2024: visions for the future of black hole physics
-https://ui.adsabs.harvard.edu/abs/2024arXiv241014414A
+Constraints on black-hole charges with the 2017 EHT observations of M87*
+by: Avramov, V. et al. - On thermodynamic stability of black holes. Part II: AdS family of solutions
+https://ui.adsabs.harvard.edu/abs/2024EPJP..139..939A
 
 New citation to:
-First Sagittarius A* Event Horizon Telescope Results. VI. Testing the Black Hole Metric
-by: Farah, Joseph R. et al. - Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n=1$ photon ring
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101060F
-
-New citation to:
-First Sagittarius A* Event Horizon Telescope Results. III. Imaging of the Galactic Center Supermassive Black Hole
-by: Farah, Joseph R. et al. - Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n=1$ photon ring
-https://ui.adsabs.harvard.edu/abs/2024arXiv241101060F
+Constraints on black-hole charges with the 2017 EHT observations of M87*
+by: Hsu, Yi-Hsiung et al. - Buchdahl bound, photon ring, ISCO and radial acceleration in Einstein-æther theory
+https://ui.adsabs.harvard.edu/abs/2024arXiv241102550H
 
